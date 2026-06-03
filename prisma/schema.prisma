@@ -1,0 +1,111 @@
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id              String          @id @default(uuid())
+  username        String          @unique
+  password_hash   String
+  created_at      DateTime        @default(now())
+  player_accounts PlayerAccount[]
+}
+
+model PlayerAccount {
+  id              String           @id @default(uuid())
+  user_id         String
+  user            User             @relation(fields: [user_id], references: [id], onDelete: Cascade)
+  player_tag      String           @unique
+  name            String
+  townhall_level  Int
+  last_synced_at  DateTime         @default(now())
+  
+  player_data     PlayerData?
+  buildings       Building[]
+  troops          Troop[]
+  heroes          Hero[]
+  upgrades        UpgradeTimer[]
+  planners        UpgradePlanner[]
+  builders        BuilderSlot[]
+}
+
+model PlayerData {
+  id              String        @id @default(uuid())
+  player_tag      String        @unique
+  player_account  PlayerAccount @relation(fields: [player_tag], references: [player_tag], onDelete: Cascade)
+  raw_json        Json
+}
+
+model Building {
+  id              String        @id @default(uuid())
+  player_tag      String
+  player_account  PlayerAccount @relation(fields: [player_tag], references: [player_tag], onDelete: Cascade)
+  name            String
+  level           Int
+  village         String        @default("home")
+
+  @@unique([player_tag, name])
+}
+
+model Troop {
+  id              String        @id @default(uuid())
+  player_tag      String
+  player_account  PlayerAccount @relation(fields: [player_tag], references: [player_tag], onDelete: Cascade)
+  name            String
+  level           Int
+  village         String        @default("home")
+
+  @@unique([player_tag, name])
+}
+
+model Hero {
+  id              String        @id @default(uuid())
+  player_tag      String
+  player_account  PlayerAccount @relation(fields: [player_tag], references: [player_tag], onDelete: Cascade)
+  name            String
+  level           Int
+  village         String        @default("home")
+
+  @@unique([player_tag, name])
+}
+
+model UpgradeTimer {
+  id              String        @id @default(uuid())
+  player_tag      String
+  player_account  PlayerAccount @relation(fields: [player_tag], references: [player_tag], onDelete: Cascade)
+  item_name       String
+  current_level   Int
+  target_level    Int
+  start_time      DateTime
+  end_time        DateTime
+  builder_slot    Int
+  status          String        @default("ACTIVE") // ACTIVE, COMPLETED, CANCELLED
+}
+
+model UpgradePlanner {
+  id              String        @id @default(uuid())
+  player_tag      String
+  player_account  PlayerAccount @relation(fields: [player_tag], references: [player_tag], onDelete: Cascade)
+  item_name       String
+  from_level      Int
+  to_level        Int
+  cost            Int
+  time_required   Int           // in seconds
+  priority        Int           @default(0)
+}
+
+model BuilderSlot {
+  id              String        @id @default(uuid())
+  player_tag      String
+  player_account  PlayerAccount @relation(fields: [player_tag], references: [player_tag], onDelete: Cascade)
+  slot_number     Int
+  is_busy         Boolean       @default(false)
+  available_at    DateTime?
+
+  @@unique([player_tag, slot_number])
+}

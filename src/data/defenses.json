@@ -1,0 +1,7515 @@
+{
+  "last_updated": "2026-06-02T15:59:12.149358",
+  "defenses": {
+    "Cannon": {
+      "id": 1000008,
+      "levels": {
+        "1": {
+          "hitpoints": 300,
+          "dps": "7",
+          "cost": "250",
+          "time": "5s",
+          "required_th": "1"
+        },
+        "2": {
+          "hitpoints": 360,
+          "dps": "10",
+          "cost": "1000",
+          "time": "30s",
+          "required_th": "2"
+        },
+        "3": {
+          "hitpoints": 420,
+          "dps": "13",
+          "cost": "4000",
+          "time": "2m",
+          "required_th": "2"
+        },
+        "4": {
+          "hitpoints": 500,
+          "dps": "17",
+          "cost": "16000",
+          "time": "20m",
+          "required_th": "3"
+        },
+        "5": {
+          "hitpoints": 600,
+          "dps": "23",
+          "cost": "50000",
+          "time": "30m",
+          "required_th": "4"
+        },
+        "6": {
+          "hitpoints": 660,
+          "dps": "30",
+          "cost": "60000",
+          "time": "1h",
+          "required_th": "5"
+        },
+        "7": {
+          "hitpoints": 730,
+          "dps": "40",
+          "cost": "100000",
+          "time": "2h",
+          "required_th": "6"
+        },
+        "8": {
+          "hitpoints": 800,
+          "dps": "48",
+          "cost": "160000",
+          "time": "3h",
+          "required_th": "7"
+        },
+        "9": {
+          "hitpoints": 880,
+          "dps": "56",
+          "cost": "250000",
+          "time": "3h 30m",
+          "required_th": "8"
+        },
+        "10": {
+          "hitpoints": 960,
+          "dps": "64",
+          "cost": "330000",
+          "time": "4h",
+          "required_th": "8"
+        },
+        "11": {
+          "hitpoints": 1060,
+          "dps": "74",
+          "cost": "500000",
+          "time": "4h 30m",
+          "required_th": "9"
+        },
+        "12": {
+          "hitpoints": 1160,
+          "dps": "85",
+          "cost": "600000",
+          "time": "5h",
+          "required_th": "10"
+        },
+        "13": {
+          "hitpoints": 1260,
+          "dps": "95",
+          "cost": "660000",
+          "time": "6h",
+          "required_th": "10"
+        },
+        "14": {
+          "hitpoints": 1380,
+          "dps": "100",
+          "cost": "1000000",
+          "time": "8h",
+          "required_th": "11"
+        },
+        "15": {
+          "hitpoints": 1500,
+          "dps": "105",
+          "cost": "1200000",
+          "time": "10h",
+          "required_th": "11"
+        },
+        "16": {
+          "hitpoints": 1620,
+          "dps": "110",
+          "cost": "1300000",
+          "time": "11h",
+          "required_th": "12"
+        },
+        "17": {
+          "hitpoints": 1740,
+          "dps": "115",
+          "cost": "1500000",
+          "time": "12h",
+          "required_th": "12"
+        },
+        "18": {
+          "hitpoints": 1870,
+          "dps": "125",
+          "cost": "1800000",
+          "time": "16h",
+          "required_th": "13"
+        },
+        "19": {
+          "hitpoints": 2000,
+          "dps": "135",
+          "cost": "2000000",
+          "time": "20h",
+          "required_th": "13"
+        },
+        "20": {
+          "hitpoints": 2150,
+          "dps": "150",
+          "cost": "2600000",
+          "time": "1d",
+          "required_th": "14"
+        },
+        "21": {
+          "hitpoints": 2250,
+          "dps": "160",
+          "cost": "3000000",
+          "time": "1d 12h",
+          "required_th": "15"
+        }
+      }
+    },
+    "Archer Tower": {
+      "id": 1000009,
+      "levels": {
+        "1": {
+          "hitpoints": 380,
+          "dps": "11",
+          "cost": "1000",
+          "time": "15s",
+          "required_th": "2"
+        },
+        "2": {
+          "hitpoints": 420,
+          "dps": "15",
+          "cost": "2000",
+          "time": "2m",
+          "required_th": "2"
+        },
+        "3": {
+          "hitpoints": 460,
+          "dps": "19",
+          "cost": "5000",
+          "time": "20m",
+          "required_th": "3"
+        },
+        "4": {
+          "hitpoints": 500,
+          "dps": "25",
+          "cost": "20000",
+          "time": "1h",
+          "required_th": "4"
+        },
+        "5": {
+          "hitpoints": 540,
+          "dps": "30",
+          "cost": "70000",
+          "time": "1h 30m",
+          "required_th": "5"
+        },
+        "6": {
+          "hitpoints": 580,
+          "dps": "35",
+          "cost": "80000",
+          "time": "2h",
+          "required_th": "5"
+        },
+        "7": {
+          "hitpoints": 630,
+          "dps": "42",
+          "cost": "150000",
+          "time": "3h",
+          "required_th": "6"
+        },
+        "8": {
+          "hitpoints": 690,
+          "dps": "48",
+          "cost": "200000",
+          "time": "4h",
+          "required_th": "7"
+        },
+        "9": {
+          "hitpoints": 750,
+          "dps": "56",
+          "cost": "400000",
+          "time": "5h",
+          "required_th": "8"
+        },
+        "10": {
+          "hitpoints": 810,
+          "dps": "63",
+          "cost": "460000",
+          "time": "6h",
+          "required_th": "8"
+        },
+        "11": {
+          "hitpoints": 890,
+          "dps": "70",
+          "cost": "600000",
+          "time": "7h",
+          "required_th": "9"
+        },
+        "12": {
+          "hitpoints": 970,
+          "dps": "74",
+          "cost": "700000",
+          "time": "8h",
+          "required_th": "10"
+        },
+        "13": {
+          "hitpoints": 1050,
+          "dps": "78",
+          "cost": "1000000",
+          "time": "10h",
+          "required_th": "10"
+        },
+        "14": {
+          "hitpoints": 1130,
+          "dps": "82",
+          "cost": "1100000",
+          "time": "11h",
+          "required_th": "11"
+        },
+        "15": {
+          "hitpoints": 1230,
+          "dps": "85",
+          "cost": "1300000",
+          "time": "12h",
+          "required_th": "11"
+        },
+        "16": {
+          "hitpoints": 1310,
+          "dps": "90",
+          "cost": "1600000",
+          "time": "16h",
+          "required_th": "12"
+        },
+        "17": {
+          "hitpoints": 1390,
+          "dps": "100",
+          "cost": "1800000",
+          "time": "20h",
+          "required_th": "12"
+        },
+        "18": {
+          "hitpoints": 1510,
+          "dps": "110",
+          "cost": "2000000",
+          "time": "1d",
+          "required_th": "13"
+        },
+        "19": {
+          "hitpoints": 1600,
+          "dps": "120",
+          "cost": "2200000",
+          "time": "1d 6h",
+          "required_th": "13"
+        },
+        "20": {
+          "hitpoints": 1700,
+          "dps": "135",
+          "cost": "3000000",
+          "time": "1d 12h",
+          "required_th": "14"
+        },
+        "21": {
+          "hitpoints": 1800,
+          "dps": "145",
+          "cost": "4000000",
+          "time": "2d",
+          "required_th": "15"
+        }
+      }
+    },
+    "Mortar": {
+      "id": 1000013,
+      "levels": {
+        "1": {
+          "hitpoints": 400,
+          "dps": "4",
+          "cost": "5000",
+          "time": "30m",
+          "required_th": "3"
+        },
+        "2": {
+          "hitpoints": 450,
+          "dps": "5",
+          "cost": "25000",
+          "time": "1h",
+          "required_th": "4"
+        },
+        "3": {
+          "hitpoints": 500,
+          "dps": "6",
+          "cost": "90000",
+          "time": "2h",
+          "required_th": "5"
+        },
+        "4": {
+          "hitpoints": 550,
+          "dps": "7",
+          "cost": "180000",
+          "time": "3h",
+          "required_th": "6"
+        },
+        "5": {
+          "hitpoints": 600,
+          "dps": "9",
+          "cost": "300000",
+          "time": "6h",
+          "required_th": "7"
+        },
+        "6": {
+          "hitpoints": 650,
+          "dps": "11",
+          "cost": "500000",
+          "time": "8h",
+          "required_th": "8"
+        },
+        "7": {
+          "hitpoints": 700,
+          "dps": "15",
+          "cost": "900000",
+          "time": "12h",
+          "required_th": "9"
+        },
+        "8": {
+          "hitpoints": 800,
+          "dps": "20",
+          "cost": "1200000",
+          "time": "18h",
+          "required_th": "10"
+        },
+        "9": {
+          "hitpoints": 950,
+          "dps": "25",
+          "cost": "1600000",
+          "time": "20h",
+          "required_th": "11"
+        },
+        "10": {
+          "hitpoints": 1100,
+          "dps": "30",
+          "cost": "1800000",
+          "time": "1d",
+          "required_th": "11"
+        },
+        "11": {
+          "hitpoints": 1300,
+          "dps": "35",
+          "cost": "2300000",
+          "time": "1d 6h",
+          "required_th": "12"
+        },
+        "12": {
+          "hitpoints": 1500,
+          "dps": "38",
+          "cost": "2400000",
+          "time": "1d 12h",
+          "required_th": "12"
+        },
+        "13": {
+          "hitpoints": 1700,
+          "dps": "42",
+          "cost": "2800000",
+          "time": "2d",
+          "required_th": "13"
+        },
+        "14": {
+          "hitpoints": 1950,
+          "dps": "48",
+          "cost": "4300000",
+          "time": "2d 12h",
+          "required_th": "14"
+        },
+        "15": {
+          "hitpoints": 2150,
+          "dps": "54",
+          "cost": "5000000",
+          "time": "3d",
+          "required_th": "15"
+        },
+        "16": {
+          "hitpoints": 2300,
+          "dps": "60",
+          "cost": "7000000",
+          "time": "4d",
+          "required_th": "16"
+        },
+        "17": {
+          "hitpoints": 2450,
+          "dps": "66",
+          "cost": "13000000",
+          "time": "5d",
+          "required_th": "17"
+        },
+        "18": {
+          "hitpoints": 2550,
+          "dps": "72",
+          "cost": "21000000",
+          "time": "12d 12h",
+          "required_th": "18"
+        }
+      }
+    },
+    "Air Defense": {
+      "id": 1000012,
+      "levels": {
+        "1": {
+          "hitpoints": 800,
+          "dps": "80",
+          "cost": "22000",
+          "time": "1h",
+          "required_th": "4"
+        },
+        "2": {
+          "hitpoints": 850,
+          "dps": "110",
+          "cost": "90000",
+          "time": "2h",
+          "required_th": "4"
+        },
+        "3": {
+          "hitpoints": 900,
+          "dps": "140",
+          "cost": "210000",
+          "time": "6h",
+          "required_th": "5"
+        },
+        "4": {
+          "hitpoints": 950,
+          "dps": "160",
+          "cost": "500000",
+          "time": "12h",
+          "required_th": "6"
+        },
+        "5": {
+          "hitpoints": 1000,
+          "dps": "190",
+          "cost": "800000",
+          "time": "18h",
+          "required_th": "7"
+        },
+        "6": {
+          "hitpoints": 1050,
+          "dps": "230",
+          "cost": "1000000",
+          "time": "1d",
+          "required_th": "8"
+        },
+        "7": {
+          "hitpoints": 1100,
+          "dps": "280",
+          "cost": "1750000",
+          "time": "2d",
+          "required_th": "9"
+        },
+        "8": {
+          "hitpoints": 1210,
+          "dps": "320",
+          "cost": "2300000",
+          "time": "2d 12h",
+          "required_th": "10"
+        },
+        "9": {
+          "hitpoints": 1300,
+          "dps": "360",
+          "cost": "3400000",
+          "time": "3d",
+          "required_th": "11"
+        },
+        "10": {
+          "hitpoints": 1400,
+          "dps": "400",
+          "cost": "5000000",
+          "time": "4d",
+          "required_th": "12"
+        },
+        "11": {
+          "hitpoints": 1500,
+          "dps": "440",
+          "cost": "5600000",
+          "time": "4d 12h",
+          "required_th": "13"
+        },
+        "12": {
+          "hitpoints": 1650,
+          "dps": "500",
+          "cost": "6500000",
+          "time": "5d",
+          "required_th": "14"
+        },
+        "13": {
+          "hitpoints": 1750,
+          "dps": "540",
+          "cost": "8000000",
+          "time": "6d",
+          "required_th": "15"
+        },
+        "14": {
+          "hitpoints": 1850,
+          "dps": "600",
+          "cost": "9000000",
+          "time": "6d 12h",
+          "required_th": "16"
+        },
+        "15": {
+          "hitpoints": 1950,
+          "dps": "650",
+          "cost": "15000000",
+          "time": "7d",
+          "required_th": "17"
+        },
+        "16": {
+          "hitpoints": 2000,
+          "dps": "700",
+          "cost": "26000000",
+          "time": "13d 6h",
+          "required_th": "18"
+        }
+      }
+    },
+    "Wizard Tower": {
+      "id": 1000011,
+      "levels": {
+        "1": {
+          "hitpoints": 620,
+          "dps": "11",
+          "cost": "100000",
+          "time": "1h",
+          "required_th": "5"
+        },
+        "2": {
+          "hitpoints": 650,
+          "dps": "13",
+          "cost": "150000",
+          "time": "1h 30m",
+          "required_th": "5"
+        },
+        "3": {
+          "hitpoints": 680,
+          "dps": "16",
+          "cost": "250000",
+          "time": "4h",
+          "required_th": "6"
+        },
+        "4": {
+          "hitpoints": 730,
+          "dps": "20",
+          "cost": "400000",
+          "time": "8h",
+          "required_th": "7"
+        },
+        "5": {
+          "hitpoints": 840,
+          "dps": "24",
+          "cost": "550000",
+          "time": "10h",
+          "required_th": "8"
+        },
+        "6": {
+          "hitpoints": 960,
+          "dps": "32",
+          "cost": "660000",
+          "time": "12h",
+          "required_th": "8"
+        },
+        "7": {
+          "hitpoints": 1200,
+          "dps": "40",
+          "cost": "1000000",
+          "time": "18h",
+          "required_th": "9"
+        },
+        "8": {
+          "hitpoints": 1440,
+          "dps": "45",
+          "cost": "1100000",
+          "time": "20h",
+          "required_th": "10"
+        },
+        "9": {
+          "hitpoints": 1600,
+          "dps": "50",
+          "cost": "1300000",
+          "time": "1d",
+          "required_th": "10"
+        },
+        "10": {
+          "hitpoints": 1900,
+          "dps": "62",
+          "cost": "2000000",
+          "time": "1d 6h",
+          "required_th": "11"
+        },
+        "11": {
+          "hitpoints": 2120,
+          "dps": "70",
+          "cost": "2500000",
+          "time": "1d 12h",
+          "required_th": "12"
+        },
+        "12": {
+          "hitpoints": 2240,
+          "dps": "78",
+          "cost": "2600000",
+          "time": "1d 18h",
+          "required_th": "13"
+        },
+        "13": {
+          "hitpoints": 2500,
+          "dps": "84",
+          "cost": "3000000",
+          "time": "2d",
+          "required_th": "13"
+        },
+        "14": {
+          "hitpoints": 2800,
+          "dps": "90",
+          "cost": "4500000",
+          "time": "3d",
+          "required_th": "14"
+        },
+        "15": {
+          "hitpoints": 3000,
+          "dps": "95",
+          "cost": "5500000",
+          "time": "4d",
+          "required_th": "15"
+        },
+        "16": {
+          "hitpoints": 3150,
+          "dps": "102",
+          "cost": "8000000",
+          "time": "4d 12h",
+          "required_th": "16"
+        },
+        "17": {
+          "hitpoints": 3300,
+          "dps": "110",
+          "cost": "14000000",
+          "time": "5d 12h",
+          "required_th": "17"
+        }
+      }
+    },
+    "Air Sweeper": {
+      "id": 1000028,
+      "levels": {
+        "1": {
+          "hitpoints": 750,
+          "dps": null,
+          "cost": "200000",
+          "time": "4h",
+          "required_th": "6"
+        },
+        "2": {
+          "hitpoints": 800,
+          "dps": null,
+          "cost": "300000",
+          "time": "6h",
+          "required_th": "6"
+        },
+        "3": {
+          "hitpoints": 850,
+          "dps": null,
+          "cost": "450000",
+          "time": "8h",
+          "required_th": "7"
+        },
+        "4": {
+          "hitpoints": 900,
+          "dps": null,
+          "cost": "800000",
+          "time": "12h",
+          "required_th": "8"
+        },
+        "5": {
+          "hitpoints": 950,
+          "dps": null,
+          "cost": "1200000",
+          "time": "1d",
+          "required_th": "9"
+        },
+        "6": {
+          "hitpoints": 1000,
+          "dps": null,
+          "cost": "1900000",
+          "time": "2d",
+          "required_th": "10"
+        },
+        "7": {
+          "hitpoints": 1050,
+          "dps": null,
+          "cost": "3400000",
+          "time": "3d",
+          "required_th": "11"
+        }
+      }
+    },
+    "Hidden Tesla": {
+      "id": 1000019,
+      "levels": {
+        "1": {
+          "hitpoints": 600,
+          "dps": "34",
+          "cost": "250000",
+          "time": "2h",
+          "required_th": "7"
+        },
+        "2": {
+          "hitpoints": 630,
+          "dps": "40",
+          "cost": "350000",
+          "time": "3h",
+          "required_th": "7"
+        },
+        "3": {
+          "hitpoints": 660,
+          "dps": "48",
+          "cost": "500000",
+          "time": "4h",
+          "required_th": "7"
+        },
+        "4": {
+          "hitpoints": 690,
+          "dps": "55",
+          "cost": "600000",
+          "time": "6h",
+          "required_th": "8"
+        },
+        "5": {
+          "hitpoints": 730,
+          "dps": "64",
+          "cost": "800000",
+          "time": "12h",
+          "required_th": "8"
+        },
+        "6": {
+          "hitpoints": 770,
+          "dps": "75",
+          "cost": "1200000",
+          "time": "1d",
+          "required_th": "8"
+        },
+        "7": {
+          "hitpoints": 810,
+          "dps": "87",
+          "cost": "1400000",
+          "time": "1d 6h",
+          "required_th": "9"
+        },
+        "8": {
+          "hitpoints": 850,
+          "dps": "99",
+          "cost": "1600000",
+          "time": "1d 12h",
+          "required_th": "10"
+        },
+        "9": {
+          "hitpoints": 900,
+          "dps": "110",
+          "cost": "2100000",
+          "time": "1d 18h",
+          "required_th": "11"
+        },
+        "10": {
+          "hitpoints": 980,
+          "dps": "120",
+          "cost": "3000000",
+          "time": "2d",
+          "required_th": "12"
+        },
+        "11": {
+          "hitpoints": 1100,
+          "dps": "130",
+          "cost": "3100000",
+          "time": "2d 12h",
+          "required_th": "13"
+        },
+        "12": {
+          "hitpoints": 1200,
+          "dps": "140",
+          "cost": "3700000",
+          "time": "3d",
+          "required_th": "13"
+        },
+        "13": {
+          "hitpoints": 1350,
+          "dps": "150",
+          "cost": "5100000",
+          "time": "3d 12h",
+          "required_th": "14"
+        },
+        "14": {
+          "hitpoints": 1450,
+          "dps": "160",
+          "cost": "6500000",
+          "time": "4d",
+          "required_th": "15"
+        },
+        "15": {
+          "hitpoints": 1550,
+          "dps": "170",
+          "cost": "8200000",
+          "time": "5d",
+          "required_th": "16"
+        },
+        "16": {
+          "hitpoints": 1650,
+          "dps": "180",
+          "cost": "15000000",
+          "time": "7d",
+          "required_th": "17"
+        },
+        "17": {
+          "hitpoints": 1750,
+          "dps": "190",
+          "cost": "25000000",
+          "time": "13d",
+          "required_th": "18"
+        }
+      }
+    },
+    "Bomb Tower": {
+      "id": 1000032,
+      "levels": {
+        "1": {
+          "hitpoints": 650,
+          "dps": "24",
+          "cost": "700000",
+          "time": "12h",
+          "required_th": "8"
+        },
+        "2": {
+          "hitpoints": 700,
+          "dps": "28",
+          "cost": "1000000",
+          "time": "18h",
+          "required_th": "8"
+        },
+        "3": {
+          "hitpoints": 750,
+          "dps": "32",
+          "cost": "1300000",
+          "time": "1d",
+          "required_th": "9"
+        },
+        "4": {
+          "hitpoints": 850,
+          "dps": "40",
+          "cost": "1800000",
+          "time": "1d 12h",
+          "required_th": "10"
+        },
+        "5": {
+          "hitpoints": 1050,
+          "dps": "48",
+          "cost": "1900000",
+          "time": "1d 18h",
+          "required_th": "11"
+        },
+        "6": {
+          "hitpoints": 1300,
+          "dps": "56",
+          "cost": "2000000",
+          "time": "2d",
+          "required_th": "11"
+        },
+        "7": {
+          "hitpoints": 1600,
+          "dps": "64",
+          "cost": "4000000",
+          "time": "3d",
+          "required_th": "12"
+        },
+        "8": {
+          "hitpoints": 1900,
+          "dps": "72",
+          "cost": "5000000",
+          "time": "3d 12h",
+          "required_th": "13"
+        },
+        "9": {
+          "hitpoints": 2300,
+          "dps": "84",
+          "cost": "6000000",
+          "time": "4d",
+          "required_th": "14"
+        },
+        "10": {
+          "hitpoints": 2500,
+          "dps": "94",
+          "cost": "7000000",
+          "time": "4d 12h",
+          "required_th": "15"
+        },
+        "11": {
+          "hitpoints": 2700,
+          "dps": "104",
+          "cost": "8500000",
+          "time": "5d",
+          "required_th": "16"
+        },
+        "12": {
+          "hitpoints": 2900,
+          "dps": "114",
+          "cost": "14500000",
+          "time": "7d",
+          "required_th": "17"
+        },
+        "13": {
+          "hitpoints": 3050,
+          "dps": "122",
+          "cost": "25000000",
+          "time": "13d",
+          "required_th": "18"
+        }
+      }
+    },
+    "X-Bow": {
+      "id": 1000021,
+      "levels": {
+        "1": {
+          "hitpoints": 1500,
+          "dps": "60",
+          "cost": "1000000",
+          "time": "12h",
+          "required_th": "9"
+        },
+        "2": {
+          "hitpoints": 1900,
+          "dps": "70",
+          "cost": "1200000",
+          "time": "1d",
+          "required_th": "9"
+        },
+        "3": {
+          "hitpoints": 2300,
+          "dps": "80",
+          "cost": "2400000",
+          "time": "2d",
+          "required_th": "9"
+        },
+        "4": {
+          "hitpoints": 2700,
+          "dps": "85",
+          "cost": "2500000",
+          "time": "2d 12h",
+          "required_th": "10"
+        },
+        "5": {
+          "hitpoints": 3100,
+          "dps": "95",
+          "cost": "3900000",
+          "time": "3d",
+          "required_th": "11"
+        },
+        "6": {
+          "hitpoints": 3400,
+          "dps": "110",
+          "cost": "5000000",
+          "time": "3d 12h",
+          "required_th": "12"
+        },
+        "7": {
+          "hitpoints": 3700,
+          "dps": "130",
+          "cost": "6000000",
+          "time": "4d",
+          "required_th": "13"
+        },
+        "8": {
+          "hitpoints": 4000,
+          "dps": "155",
+          "cost": "7000000",
+          "time": "4d 12h",
+          "required_th": "13"
+        },
+        "9": {
+          "hitpoints": 4200,
+          "dps": "185",
+          "cost": "9000000",
+          "time": "5d",
+          "required_th": "14"
+        },
+        "10": {
+          "hitpoints": 4400,
+          "dps": "205",
+          "cost": "9500000",
+          "time": "5d 12h",
+          "required_th": "15"
+        },
+        "11": {
+          "hitpoints": 4600,
+          "dps": "225",
+          "cost": "10000000",
+          "time": "6d",
+          "required_th": "16"
+        },
+        "12": {
+          "hitpoints": 4800,
+          "dps": "235",
+          "cost": "16000000",
+          "time": "8d",
+          "required_th": "17"
+        },
+        "13": {
+          "hitpoints": 5000,
+          "dps": "245",
+          "cost": "26000000",
+          "time": "13d 12h",
+          "required_th": "18"
+        }
+      }
+    },
+    "Inferno Tower": {
+      "id": 1000027,
+      "levels": {
+        "1": {
+          "hitpoints": 1500,
+          "dps": "30",
+          "cost": "1000000",
+          "time": "12h",
+          "required_th": "10"
+        },
+        "2": {
+          "hitpoints": 1800,
+          "dps": "35",
+          "cost": "1200000",
+          "time": "1d",
+          "required_th": "10"
+        },
+        "3": {
+          "hitpoints": 2100,
+          "dps": "40",
+          "cost": "2400000",
+          "time": "2d",
+          "required_th": "10"
+        },
+        "4": {
+          "hitpoints": 2400,
+          "dps": "45",
+          "cost": "3400000",
+          "time": "2d 12h",
+          "required_th": "11"
+        },
+        "5": {
+          "hitpoints": 2700,
+          "dps": "50",
+          "cost": "4000000",
+          "time": "3d",
+          "required_th": "11"
+        },
+        "6": {
+          "hitpoints": 3000,
+          "dps": "55",
+          "cost": "6000000",
+          "time": "4d",
+          "required_th": "12"
+        },
+        "7": {
+          "hitpoints": 3300,
+          "dps": "65",
+          "cost": "8000000",
+          "time": "5d",
+          "required_th": "13"
+        },
+        "8": {
+          "hitpoints": 3700,
+          "dps": "80",
+          "cost": "9500000",
+          "time": "6d",
+          "required_th": "14"
+        },
+        "9": {
+          "hitpoints": 4000,
+          "dps": "100",
+          "cost": "10000000",
+          "time": "6d 12h",
+          "required_th": "15"
+        },
+        "10": {
+          "hitpoints": 4400,
+          "dps": "120",
+          "cost": "11000000",
+          "time": "7d",
+          "required_th": "16"
+        },
+        "11": {
+          "hitpoints": 4800,
+          "dps": "140",
+          "cost": "16000000",
+          "time": "8d",
+          "required_th": "17"
+        },
+        "12": {
+          "hitpoints": 5100,
+          "dps": "155",
+          "cost": "26500000",
+          "time": "13d 12h",
+          "required_th": "18"
+        }
+      }
+    },
+    "Eagle Artillery": {
+      "id": 1000031,
+      "levels": {
+        "1": {
+          "hitpoints": 4000,
+          "dps": "0",
+          "cost": "5000000",
+          "time": "4d",
+          "required_th": "11"
+        },
+        "2": {
+          "hitpoints": 4400,
+          "dps": null,
+          "cost": "6000000",
+          "time": "5d",
+          "required_th": "11"
+        },
+        "3": {
+          "hitpoints": 4800,
+          "dps": null,
+          "cost": "9000000",
+          "time": "7d",
+          "required_th": "12"
+        },
+        "4": {
+          "hitpoints": 5200,
+          "dps": null,
+          "cost": "10000000",
+          "time": "7d 12h",
+          "required_th": "13"
+        },
+        "5": {
+          "hitpoints": 5600,
+          "dps": null,
+          "cost": "12000000",
+          "time": "8d",
+          "required_th": "14"
+        },
+        "6": {
+          "hitpoints": 5900,
+          "dps": null,
+          "cost": "13000000",
+          "time": "9d",
+          "required_th": "15"
+        },
+        "7": {
+          "hitpoints": 6200,
+          "dps": null,
+          "cost": "14000000",
+          "time": "9d 12h",
+          "required_th": "16"
+        }
+      }
+    },
+    "Scattershot": {
+      "id": 1000067,
+      "levels": {
+        "1": {
+          "hitpoints": 3600,
+          "dps": "125",
+          "cost": "8000000",
+          "time": "5d",
+          "required_th": "13"
+        },
+        "2": {
+          "hitpoints": 4200,
+          "dps": "150",
+          "cost": "9000000",
+          "time": "7d",
+          "required_th": "13"
+        },
+        "3": {
+          "hitpoints": 4800,
+          "dps": "170",
+          "cost": "11000000",
+          "time": "7d 12h",
+          "required_th": "14"
+        },
+        "4": {
+          "hitpoints": 5100,
+          "dps": "175",
+          "cost": "11500000",
+          "time": "8d",
+          "required_th": "15"
+        },
+        "5": {
+          "hitpoints": 5410,
+          "dps": "180",
+          "cost": "12000000",
+          "time": "8d 12h",
+          "required_th": "16"
+        },
+        "6": {
+          "hitpoints": 5600,
+          "dps": "185",
+          "cost": "16500000",
+          "time": "9d",
+          "required_th": "17"
+        },
+        "7": {
+          "hitpoints": 5800,
+          "dps": "190",
+          "cost": "26500000",
+          "time": "15d",
+          "required_th": "18"
+        }
+      }
+    },
+    "Spell Tower": {
+      "id": 1000072,
+      "levels": {
+        "1": {
+          "hitpoints": 2500,
+          "dps": null,
+          "cost": "9000000",
+          "time": "7d",
+          "required_th": "15"
+        },
+        "2": {
+          "hitpoints": 2800,
+          "dps": null,
+          "cost": "11000000",
+          "time": "8d",
+          "required_th": "15"
+        },
+        "3": {
+          "hitpoints": 3100,
+          "dps": null,
+          "cost": "12000000",
+          "time": "8d 12h",
+          "required_th": "15"
+        },
+        "4": {
+          "hitpoints": 3200,
+          "dps": null,
+          "cost": "27000000",
+          "time": "10d",
+          "required_th": "17"
+        }
+      }
+    },
+    "Monolith": {
+      "id": 1000077,
+      "levels": {
+        "1": {
+          "hitpoints": 4747,
+          "dps": "150",
+          "cost": "200000",
+          "time": "7d",
+          "required_th": "15"
+        },
+        "2": {
+          "hitpoints": 5050,
+          "dps": "175",
+          "cost": "250000",
+          "time": "8d",
+          "required_th": "15"
+        },
+        "3": {
+          "hitpoints": 5353,
+          "dps": "193",
+          "cost": "260000",
+          "time": "9d",
+          "required_th": "16"
+        },
+        "4": {
+          "hitpoints": 5656,
+          "dps": "209",
+          "cost": "300000",
+          "time": "11d",
+          "required_th": "17"
+        }
+      }
+    },
+    "Multi Archer Tower": {
+      "id": 1000084,
+      "levels": {
+        "1": {
+          "hitpoints": 5000,
+          "dps": null,
+          "cost": "12000000",
+          "time": "7d",
+          "required_th": "16"
+        }
+      }
+    },
+    "Ricochet Cannon": {
+      "id": 1000085,
+      "levels": {
+        "1": {
+          "hitpoints": 5400,
+          "dps": "360",
+          "cost": "12000000",
+          "time": "7d",
+          "required_th": "16"
+        }
+      }
+    },
+    "Multi Gear Tower": {
+      "id": 1000079,
+      "levels": {
+        "1": {
+          "hitpoints": 4000,
+          "dps": "350",
+          "cost": "17000000",
+          "time": "8d",
+          "required_th": "17"
+        }
+      }
+    },
+    "Firespitter": {
+      "id": 1000089,
+      "levels": {
+        "1": {
+          "hitpoints": 4500,
+          "dps": "411",
+          "cost": "17000000",
+          "time": "8d 12h",
+          "required_th": "17"
+        }
+      }
+    },
+    "Revenge Tower": {
+      "id": 1000086,
+      "levels": {
+        "1": {
+          "hitpoints": 5800,
+          "dps": null,
+          "cost": "430000",
+          "time": "13d 5s",
+          "required_th": "18"
+        }
+      }
+    },
+    "Super Wizard Tower": {
+      "id": 1000102,
+      "levels": {
+        "1": {
+          "hitpoints": 6000,
+          "dps": "290",
+          "cost": "29000000",
+          "time": "13d",
+          "required_th": "18"
+        }
+      }
+    },
+    "Crafting Station": {
+      "id": 1000097,
+      "levels": {
+        "1": {
+          "hitpoints": 1000,
+          "dps": null,
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "17"
+        }
+      }
+    },
+    "Unused2": {
+      "id": 1000087,
+      "levels": {
+        "1": {
+          "hitpoints": 300,
+          "dps": "7",
+          "cost": "250",
+          "time": "5s",
+          "required_th": "1000"
+        }
+      }
+    },
+    "Unused3": {
+      "id": 1000088,
+      "levels": {
+        "1": {
+          "hitpoints": 300,
+          "dps": "7",
+          "cost": "250",
+          "time": "5s",
+          "required_th": "1000"
+        }
+      }
+    },
+    "Unused4": {
+      "id": 1000094,
+      "levels": {
+        "1": {
+          "hitpoints": 300,
+          "dps": "7",
+          "cost": "250",
+          "time": "5s",
+          "required_th": "1000"
+        }
+      }
+    },
+    "Unused5": {
+      "id": 1000095,
+      "levels": {
+        "1": {
+          "hitpoints": 300,
+          "dps": "7",
+          "cost": "250",
+          "time": "5s",
+          "required_th": "1000"
+        }
+      }
+    },
+    "Unused6": {
+      "id": 1000096,
+      "levels": {
+        "1": {
+          "hitpoints": 300,
+          "dps": "7",
+          "cost": "250",
+          "time": "5s",
+          "required_th": "1000"
+        }
+      }
+    }
+  },
+  "resources": {
+    "Gold Mine": {
+      "id": 1000004,
+      "levels": {
+        "1": {
+          "hitpoints": 75,
+          "dps": null,
+          "cost": "150",
+          "time": "5s",
+          "required_th": "1"
+        }
+      }
+    },
+    "Elixir Collector": {
+      "id": 1000002,
+      "levels": {
+        "1": {
+          "hitpoints": 75,
+          "dps": null,
+          "cost": "150",
+          "time": "5s",
+          "required_th": "1"
+        }
+      }
+    },
+    "Dark Elixir Drill": {
+      "id": 1000023,
+      "levels": {
+        "1": {
+          "hitpoints": 800,
+          "dps": null,
+          "cost": "180000",
+          "time": "4h",
+          "required_th": "7"
+        }
+      }
+    },
+    "Gold Storage": {
+      "id": 1000005,
+      "levels": {
+        "1": {
+          "hitpoints": 150,
+          "dps": null,
+          "cost": "300",
+          "time": "10s",
+          "required_th": "1"
+        }
+      }
+    },
+    "Elixir Storage": {
+      "id": 1000003,
+      "levels": {
+        "1": {
+          "hitpoints": 150,
+          "dps": null,
+          "cost": "300",
+          "time": "10s",
+          "required_th": "1"
+        }
+      }
+    },
+    "Dark Elixir Storage": {
+      "id": 1000024,
+      "levels": {
+        "1": {
+          "hitpoints": 2000,
+          "dps": null,
+          "cost": "250000",
+          "time": "8h",
+          "required_th": "7"
+        }
+      }
+    },
+    "Clan Castle": {
+      "levels": {
+        "1": {
+          "hitpoints": 600,
+          "dps": null,
+          "cost": "10000",
+          "time": "N/A",
+          "required_th": "2*"
+        },
+        "2": {
+          "hitpoints": 1200,
+          "dps": null,
+          "cost": "50000",
+          "time": "2h",
+          "required_th": "4"
+        },
+        "3": {
+          "hitpoints": 1800,
+          "dps": null,
+          "cost": "600000",
+          "time": "12h",
+          "required_th": "6"
+        },
+        "4": {
+          "hitpoints": 2600,
+          "dps": null,
+          "cost": "1200000",
+          "time": "1d",
+          "required_th": "8"
+        },
+        "5": {
+          "hitpoints": 3000,
+          "dps": null,
+          "cost": "2000000",
+          "time": "1d 12h",
+          "required_th": "9"
+        },
+        "6": {
+          "hitpoints": 3400,
+          "dps": null,
+          "cost": "3000000",
+          "time": "2d",
+          "required_th": "10"
+        },
+        "7": {
+          "hitpoints": 4000,
+          "dps": null,
+          "cost": "5000000",
+          "time": "3d",
+          "required_th": "11"
+        },
+        "8": {
+          "hitpoints": 4400,
+          "dps": null,
+          "cost": "5000000",
+          "time": "4d",
+          "required_th": "12"
+        },
+        "9": {
+          "hitpoints": 4800,
+          "dps": null,
+          "cost": "8000000",
+          "time": "6d",
+          "required_th": "13"
+        },
+        "10": {
+          "hitpoints": 5200,
+          "dps": null,
+          "cost": "10000000",
+          "time": "7d",
+          "required_th": "14"
+        },
+        "11": {
+          "hitpoints": 5400,
+          "dps": null,
+          "cost": "12000000",
+          "time": "8d",
+          "required_th": "15"
+        },
+        "12": {
+          "hitpoints": 5600,
+          "dps": null,
+          "cost": "14500000",
+          "time": "9d",
+          "required_th": "16"
+        },
+        "13": {
+          "hitpoints": 5800,
+          "dps": null,
+          "cost": "19000000",
+          "time": "10d",
+          "required_th": "17"
+        },
+        "14": {
+          "hitpoints": 6000,
+          "dps": null,
+          "cost": "28000000",
+          "time": "14d",
+          "required_th": "18"
+        }
+      }
+    },
+    "Sour Elixir Cauldron": {
+      "id": 1000083,
+      "levels": {
+        "1": {
+          "hitpoints": 1000,
+          "dps": null,
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    }
+  },
+  "army": {
+    "Army Camp": {
+      "id": 1000000,
+      "levels": {
+        "1": {
+          "hitpoints": 100,
+          "dps": null,
+          "cost": "200",
+          "time": "1m",
+          "required_th": "1"
+        }
+      }
+    },
+    "Barracks": {
+      "id": 1000006,
+      "levels": {
+        "1": {
+          "hitpoints": 100,
+          "dps": null,
+          "cost": "100",
+          "time": "10s",
+          "required_th": "1"
+        },
+        "2": {
+          "hitpoints": 200,
+          "dps": null,
+          "cost": "500",
+          "time": "15s",
+          "required_th": "2"
+        },
+        "3": {
+          "hitpoints": 250,
+          "dps": null,
+          "cost": "2500",
+          "time": "2m",
+          "required_th": "2"
+        },
+        "4": {
+          "hitpoints": 300,
+          "dps": null,
+          "cost": "5000",
+          "time": "30m",
+          "required_th": "2"
+        },
+        "5": {
+          "hitpoints": 360,
+          "dps": null,
+          "cost": "20000",
+          "time": "2h",
+          "required_th": "3"
+        },
+        "6": {
+          "hitpoints": 420,
+          "dps": null,
+          "cost": "120000",
+          "time": "4h",
+          "required_th": "4"
+        },
+        "7": {
+          "hitpoints": 500,
+          "dps": null,
+          "cost": "270000",
+          "time": "6h",
+          "required_th": "5"
+        },
+        "8": {
+          "hitpoints": 575,
+          "dps": null,
+          "cost": "600000",
+          "time": "12h",
+          "required_th": "6"
+        },
+        "9": {
+          "hitpoints": 650,
+          "dps": null,
+          "cost": "1000000",
+          "time": "1d",
+          "required_th": "7"
+        },
+        "10": {
+          "hitpoints": 730,
+          "dps": null,
+          "cost": "1400000",
+          "time": "1d 12h",
+          "required_th": "8"
+        },
+        "11": {
+          "hitpoints": 810,
+          "dps": null,
+          "cost": "2600000",
+          "time": "2d",
+          "required_th": "9"
+        },
+        "12": {
+          "hitpoints": 900,
+          "dps": null,
+          "cost": "3700000",
+          "time": "4d",
+          "required_th": "10"
+        },
+        "13": {
+          "hitpoints": 980,
+          "dps": null,
+          "cost": "6000000",
+          "time": "5d",
+          "required_th": "11"
+        },
+        "14": {
+          "hitpoints": 1050,
+          "dps": null,
+          "cost": "7000000",
+          "time": "6d",
+          "required_th": "12"
+        },
+        "15": {
+          "hitpoints": 1150,
+          "dps": null,
+          "cost": "9000000",
+          "time": "7d",
+          "required_th": "13"
+        },
+        "16": {
+          "hitpoints": 1250,
+          "dps": null,
+          "cost": "11000000",
+          "time": "7d 12h",
+          "required_th": "14"
+        },
+        "17": {
+          "hitpoints": 1350,
+          "dps": null,
+          "cost": "12600000",
+          "time": "8d",
+          "required_th": "15"
+        },
+        "18": {
+          "hitpoints": 1450,
+          "dps": null,
+          "cost": "15000000",
+          "time": "9d",
+          "required_th": "16"
+        },
+        "19": {
+          "hitpoints": 1520,
+          "dps": null,
+          "cost": "26000000",
+          "time": "10d 12h",
+          "required_th": "17"
+        }
+      }
+    },
+    "Dark Barracks": {
+      "id": 1000026,
+      "levels": {
+        "1": {
+          "hitpoints": 500,
+          "dps": null,
+          "cost": "200000",
+          "time": "8h",
+          "required_th": "7"
+        },
+        "2": {
+          "hitpoints": 550,
+          "dps": null,
+          "cost": "600000",
+          "time": "1d",
+          "required_th": "7"
+        },
+        "3": {
+          "hitpoints": 600,
+          "dps": null,
+          "cost": "1000000",
+          "time": "1d 12h",
+          "required_th": "8"
+        },
+        "4": {
+          "hitpoints": 650,
+          "dps": null,
+          "cost": "1600000",
+          "time": "2d",
+          "required_th": "8"
+        },
+        "5": {
+          "hitpoints": 700,
+          "dps": null,
+          "cost": "2200000",
+          "time": "2d 12h",
+          "required_th": "9"
+        },
+        "6": {
+          "hitpoints": 750,
+          "dps": null,
+          "cost": "2900000",
+          "time": "3d",
+          "required_th": "9"
+        },
+        "7": {
+          "hitpoints": 800,
+          "dps": null,
+          "cost": "4000000",
+          "time": "5d",
+          "required_th": "10"
+        },
+        "8": {
+          "hitpoints": 850,
+          "dps": null,
+          "cost": "7000000",
+          "time": "6d",
+          "required_th": "11"
+        },
+        "9": {
+          "hitpoints": 900,
+          "dps": null,
+          "cost": "7200000",
+          "time": "7d",
+          "required_th": "12"
+        },
+        "10": {
+          "hitpoints": 950,
+          "dps": null,
+          "cost": "10000000",
+          "time": "7d 12h",
+          "required_th": "13"
+        },
+        "11": {
+          "hitpoints": 1000,
+          "dps": null,
+          "cost": "12000000",
+          "time": "8d",
+          "required_th": "14"
+        },
+        "12": {
+          "hitpoints": 1050,
+          "dps": null,
+          "cost": "20000000",
+          "time": "9d",
+          "required_th": "15"
+        }
+      }
+    },
+    "Laboratory": {
+      "id": 1000007,
+      "levels": {
+        "1": {
+          "hitpoints": 500,
+          "dps": null,
+          "cost": "5000",
+          "time": "1m",
+          "required_th": "3"
+        }
+      }
+    },
+    "Spell Factory": {
+      "id": 1000020,
+      "levels": {
+        "1": {
+          "hitpoints": 425,
+          "dps": null,
+          "cost": "150000",
+          "time": "6h",
+          "required_th": "5"
+        }
+      }
+    },
+    "Dark Spell Factory": {
+      "id": 1000029,
+      "levels": {
+        "1": {
+          "hitpoints": 600,
+          "dps": null,
+          "cost": "130000",
+          "time": "6h",
+          "required_th": "8"
+        }
+      }
+    },
+    "Workshop": {
+      "levels": {
+        "1": {
+          "hitpoints": 1000,
+          "dps": null,
+          "cost": "2400000",
+          "time": "2d",
+          "required_th": "12"
+        },
+        "2": {
+          "hitpoints": 1100,
+          "dps": null,
+          "cost": "3700000",
+          "time": "3d",
+          "required_th": "12"
+        },
+        "3": {
+          "hitpoints": 1200,
+          "dps": null,
+          "cost": "5000000",
+          "time": "3d 12h",
+          "required_th": "12"
+        },
+        "4": {
+          "hitpoints": 1300,
+          "dps": null,
+          "cost": "8700000",
+          "time": "4d",
+          "required_th": "13"
+        },
+        "5": {
+          "hitpoints": 1400,
+          "dps": null,
+          "cost": "9000000",
+          "time": "5d",
+          "required_th": "13"
+        },
+        "6": {
+          "hitpoints": 1500,
+          "dps": null,
+          "cost": "10000000",
+          "time": "5d 12h",
+          "required_th": "14"
+        },
+        "7": {
+          "hitpoints": 1600,
+          "dps": null,
+          "cost": "11000000",
+          "time": "6d",
+          "required_th": "15"
+        },
+        "8": {
+          "hitpoints": 1700,
+          "dps": null,
+          "cost": "13000000",
+          "time": "7d",
+          "required_th": "16"
+        },
+        "9": {
+          "hitpoints": 1800,
+          "dps": null,
+          "cost": "26000000",
+          "time": "13d 12h",
+          "required_th": "17"
+        }
+      }
+    },
+    "Pet House": {
+      "id": 1000068,
+      "levels": {
+        "1": {
+          "hitpoints": 700,
+          "dps": null,
+          "cost": "3000000",
+          "time": "1d",
+          "required_th": "14"
+        },
+        "2": {
+          "hitpoints": 800,
+          "dps": null,
+          "cost": "4000000",
+          "time": "2d",
+          "required_th": "14"
+        },
+        "3": {
+          "hitpoints": 900,
+          "dps": null,
+          "cost": "5000000",
+          "time": "3d",
+          "required_th": "14"
+        },
+        "4": {
+          "hitpoints": 1000,
+          "dps": null,
+          "cost": "6000000",
+          "time": "3d 12h",
+          "required_th": "14"
+        },
+        "5": {
+          "hitpoints": 1050,
+          "dps": null,
+          "cost": "7000000",
+          "time": "4d",
+          "required_th": "15"
+        },
+        "6": {
+          "hitpoints": 1100,
+          "dps": null,
+          "cost": "8000000",
+          "time": "4d 12h",
+          "required_th": "15"
+        },
+        "7": {
+          "hitpoints": 1150,
+          "dps": null,
+          "cost": "9000000",
+          "time": "5d",
+          "required_th": "15"
+        },
+        "8": {
+          "hitpoints": 1200,
+          "dps": null,
+          "cost": "10000000",
+          "time": "5d 12h",
+          "required_th": "15"
+        },
+        "9": {
+          "hitpoints": 1250,
+          "dps": null,
+          "cost": "11000000",
+          "time": "6d",
+          "required_th": "16"
+        },
+        "10": {
+          "hitpoints": 1300,
+          "dps": null,
+          "cost": "12000000",
+          "time": "7d",
+          "required_th": "16"
+        },
+        "11": {
+          "hitpoints": 1350,
+          "dps": null,
+          "cost": "16500000",
+          "time": "8d",
+          "required_th": "17"
+        },
+        "12": {
+          "hitpoints": 1400,
+          "dps": null,
+          "cost": "25500000",
+          "time": "13d 12h",
+          "required_th": "18"
+        }
+      }
+    },
+    "Blacksmith": {
+      "id": 1000070,
+      "levels": {
+        "1": {
+          "hitpoints": 700,
+          "dps": null,
+          "cost": "600000",
+          "time": "12h",
+          "required_th": "8"
+        },
+        "2": {
+          "hitpoints": 800,
+          "dps": null,
+          "cost": "1200000",
+          "time": "1d",
+          "required_th": "9"
+        },
+        "3": {
+          "hitpoints": 900,
+          "dps": null,
+          "cost": "2300000",
+          "time": "2d",
+          "required_th": "10"
+        },
+        "4": {
+          "hitpoints": 1000,
+          "dps": null,
+          "cost": "3000000",
+          "time": "3d",
+          "required_th": "11"
+        },
+        "5": {
+          "hitpoints": 1100,
+          "dps": null,
+          "cost": "5000000",
+          "time": "4d",
+          "required_th": "12"
+        },
+        "6": {
+          "hitpoints": 1200,
+          "dps": null,
+          "cost": "6200000",
+          "time": "4d 12h",
+          "required_th": "13"
+        },
+        "7": {
+          "hitpoints": 1300,
+          "dps": null,
+          "cost": "9200000",
+          "time": "5d",
+          "required_th": "14"
+        },
+        "8": {
+          "hitpoints": 1400,
+          "dps": null,
+          "cost": "10000000",
+          "time": "6d",
+          "required_th": "15"
+        },
+        "9": {
+          "hitpoints": 1500,
+          "dps": null,
+          "cost": "11000000",
+          "time": "7d",
+          "required_th": "16"
+        },
+        "10": {
+          "hitpoints": 1600,
+          "dps": null,
+          "cost": "18000000",
+          "time": "10d",
+          "required_th": "17"
+        }
+      }
+    },
+    "Clan Castle": {
+      "id": 1000014,
+      "levels": {
+        "1": {
+          "hitpoints": 600,
+          "dps": null,
+          "cost": "10000",
+          "time": "Instant",
+          "required_th": "3"
+        }
+      }
+    },
+    "Siege Workshop": {
+      "id": 1000059,
+      "levels": {
+        "1": {
+          "hitpoints": 1000,
+          "dps": null,
+          "cost": "2400000",
+          "time": "2d",
+          "required_th": "12"
+        },
+        "2": {
+          "hitpoints": 1100,
+          "dps": null,
+          "cost": "3700000",
+          "time": "3d",
+          "required_th": "12"
+        },
+        "3": {
+          "hitpoints": 1200,
+          "dps": null,
+          "cost": "5000000",
+          "time": "3d 12h",
+          "required_th": "12"
+        },
+        "4": {
+          "hitpoints": 1300,
+          "dps": null,
+          "cost": "8700000",
+          "time": "4d",
+          "required_th": "13"
+        },
+        "5": {
+          "hitpoints": 1400,
+          "dps": null,
+          "cost": "9000000",
+          "time": "5d",
+          "required_th": "13"
+        },
+        "6": {
+          "hitpoints": 1500,
+          "dps": null,
+          "cost": "10000000",
+          "time": "5d 12h",
+          "required_th": "14"
+        },
+        "7": {
+          "hitpoints": 1600,
+          "dps": null,
+          "cost": "11000000",
+          "time": "6d",
+          "required_th": "15"
+        },
+        "8": {
+          "hitpoints": 1700,
+          "dps": null,
+          "cost": "13000000",
+          "time": "7d",
+          "required_th": "16"
+        },
+        "9": {
+          "hitpoints": 1800,
+          "dps": null,
+          "cost": "26000000",
+          "time": "13d 12h",
+          "required_th": "17"
+        }
+      }
+    },
+    "Hero Hall": {
+      "id": 1000071,
+      "levels": {
+        "1": {
+          "hitpoints": 800,
+          "dps": null,
+          "cost": "30000",
+          "time": "1h",
+          "required_th": "4"
+        }
+      }
+    }
+  },
+  "builder_base": {
+    "Double Cannon": {
+      "id": 1000041,
+      "levels": {
+        "1": {
+          "hitpoints": 600,
+          "dps": null,
+          "cost": "20000",
+          "time": "10m",
+          "required_th": "2"
+        },
+        "2": {
+          "hitpoints": 690,
+          "dps": null,
+          "cost": "50000",
+          "time": "1h",
+          "required_th": "3"
+        },
+        "3": {
+          "hitpoints": 800,
+          "dps": null,
+          "cost": "80000",
+          "time": "3h",
+          "required_th": "3"
+        },
+        "4": {
+          "hitpoints": 910,
+          "dps": null,
+          "cost": "300000",
+          "time": "12h",
+          "required_th": "4"
+        },
+        "5": {
+          "hitpoints": 1050,
+          "dps": null,
+          "cost": "900000",
+          "time": "1d",
+          "required_th": "5"
+        },
+        "6": {
+          "hitpoints": 1250,
+          "dps": null,
+          "cost": "1400000",
+          "time": "2d",
+          "required_th": "6"
+        },
+        "7": {
+          "hitpoints": 1450,
+          "dps": null,
+          "cost": "2200000",
+          "time": "4d",
+          "required_th": "7"
+        },
+        "8": {
+          "hitpoints": 1700,
+          "dps": null,
+          "cost": "3200000",
+          "time": "6d",
+          "required_th": "8"
+        },
+        "9": {
+          "hitpoints": 1950,
+          "dps": null,
+          "cost": "4200000",
+          "time": "8d",
+          "required_th": "9"
+        },
+        "10": {
+          "hitpoints": 2200,
+          "dps": null,
+          "cost": "5200000",
+          "time": "10d",
+          "required_th": "10"
+        }
+      }
+    },
+    "Crusher": {
+      "id": 1000055,
+      "levels": {
+        "1": {
+          "hitpoints": 1000,
+          "dps": null,
+          "cost": "120000",
+          "time": "2h",
+          "required_th": "3"
+        },
+        "2": {
+          "hitpoints": 1100,
+          "dps": null,
+          "cost": "180000",
+          "time": "5h",
+          "required_th": "3"
+        },
+        "3": {
+          "hitpoints": 1250,
+          "dps": null,
+          "cost": "220000",
+          "time": "12h",
+          "required_th": "3"
+        },
+        "4": {
+          "hitpoints": 1400,
+          "dps": null,
+          "cost": "350000",
+          "time": "1d",
+          "required_th": "4"
+        },
+        "5": {
+          "hitpoints": 1600,
+          "dps": null,
+          "cost": "1200000",
+          "time": "2d",
+          "required_th": "5"
+        },
+        "6": {
+          "hitpoints": 1850,
+          "dps": null,
+          "cost": "1500000",
+          "time": "4d",
+          "required_th": "6"
+        },
+        "7": {
+          "hitpoints": 2100,
+          "dps": null,
+          "cost": "2400000",
+          "time": "6d",
+          "required_th": "7"
+        },
+        "8": {
+          "hitpoints": 2350,
+          "dps": null,
+          "cost": "3400000",
+          "time": "8d",
+          "required_th": "8"
+        },
+        "9": {
+          "hitpoints": 2600,
+          "dps": null,
+          "cost": "4400000",
+          "time": "10d",
+          "required_th": "9"
+        },
+        "10": {
+          "hitpoints": 2900,
+          "dps": null,
+          "cost": "5400000",
+          "time": "12d",
+          "required_th": "10"
+        }
+      }
+    },
+    "Roaster": {
+      "id": 1000056,
+      "levels": {
+        "1": {
+          "hitpoints": 800,
+          "dps": null,
+          "cost": "1000000",
+          "time": "1d",
+          "required_th": "6"
+        },
+        "2": {
+          "hitpoints": 950,
+          "dps": null,
+          "cost": "1200000",
+          "time": "2d",
+          "required_th": "6"
+        },
+        "3": {
+          "hitpoints": 1100,
+          "dps": null,
+          "cost": "1400000",
+          "time": "3d",
+          "required_th": "6"
+        },
+        "4": {
+          "hitpoints": 1300,
+          "dps": null,
+          "cost": "1500000",
+          "time": "4d",
+          "required_th": "6"
+        },
+        "5": {
+          "hitpoints": 1500,
+          "dps": null,
+          "cost": "1600000",
+          "time": "5d",
+          "required_th": "6"
+        },
+        "6": {
+          "hitpoints": 1700,
+          "dps": null,
+          "cost": "1700000",
+          "time": "6d",
+          "required_th": "6"
+        },
+        "7": {
+          "hitpoints": 1900,
+          "dps": null,
+          "cost": "2600000",
+          "time": "8d",
+          "required_th": "7"
+        },
+        "8": {
+          "hitpoints": 2100,
+          "dps": null,
+          "cost": "3600000",
+          "time": "10d",
+          "required_th": "8"
+        },
+        "9": {
+          "hitpoints": 2350,
+          "dps": null,
+          "cost": "4600000",
+          "time": "11d",
+          "required_th": "9"
+        },
+        "10": {
+          "hitpoints": 2600,
+          "dps": null,
+          "cost": "5600000",
+          "time": "12d",
+          "required_th": "10"
+        }
+      }
+    },
+    "Giant Cannon": {
+      "id": 1000057,
+      "levels": {
+        "1": {
+          "hitpoints": 700,
+          "dps": null,
+          "cost": "2000000",
+          "time": "1d",
+          "required_th": "7"
+        },
+        "2": {
+          "hitpoints": 800,
+          "dps": null,
+          "cost": "2100000",
+          "time": "2d",
+          "required_th": "7"
+        },
+        "3": {
+          "hitpoints": 950,
+          "dps": null,
+          "cost": "2200000",
+          "time": "3d",
+          "required_th": "7"
+        },
+        "4": {
+          "hitpoints": 1100,
+          "dps": null,
+          "cost": "2300000",
+          "time": "4d",
+          "required_th": "7"
+        },
+        "5": {
+          "hitpoints": 1300,
+          "dps": null,
+          "cost": "2400000",
+          "time": "5d",
+          "required_th": "7"
+        },
+        "6": {
+          "hitpoints": 1500,
+          "dps": null,
+          "cost": "2500000",
+          "time": "6d",
+          "required_th": "7"
+        },
+        "7": {
+          "hitpoints": 1700,
+          "dps": null,
+          "cost": "2700000",
+          "time": "8d",
+          "required_th": "7"
+        },
+        "8": {
+          "hitpoints": 1900,
+          "dps": null,
+          "cost": "3800000",
+          "time": "10d",
+          "required_th": "8"
+        },
+        "9": {
+          "hitpoints": 2150,
+          "dps": null,
+          "cost": "4700000",
+          "time": "11d",
+          "required_th": "9"
+        },
+        "10": {
+          "hitpoints": 2400,
+          "dps": null,
+          "cost": "5700000",
+          "time": "12d",
+          "required_th": "10"
+        }
+      }
+    },
+    "Mega Tesla": {
+      "id": 1000052,
+      "levels": {
+        "1": {
+          "hitpoints": 700,
+          "dps": null,
+          "cost": "3000000",
+          "time": "2d",
+          "required_th": "8"
+        },
+        "2": {
+          "hitpoints": 800,
+          "dps": null,
+          "cost": "3100000",
+          "time": "3d",
+          "required_th": "8"
+        },
+        "3": {
+          "hitpoints": 950,
+          "dps": null,
+          "cost": "3200000",
+          "time": "4d",
+          "required_th": "8"
+        },
+        "4": {
+          "hitpoints": 1100,
+          "dps": null,
+          "cost": "3300000",
+          "time": "5d",
+          "required_th": "8"
+        },
+        "5": {
+          "hitpoints": 1300,
+          "dps": null,
+          "cost": "3400000",
+          "time": "6d",
+          "required_th": "8"
+        },
+        "6": {
+          "hitpoints": 1500,
+          "dps": null,
+          "cost": "3600000",
+          "time": "7d",
+          "required_th": "8"
+        },
+        "7": {
+          "hitpoints": 1700,
+          "dps": null,
+          "cost": "3800000",
+          "time": "8d",
+          "required_th": "8"
+        },
+        "8": {
+          "hitpoints": 1900,
+          "dps": null,
+          "cost": "4000000",
+          "time": "10d",
+          "required_th": "8"
+        },
+        "9": {
+          "hitpoints": 2150,
+          "dps": null,
+          "cost": "4800000",
+          "time": "11d",
+          "required_th": "9"
+        },
+        "10": {
+          "hitpoints": 2400,
+          "dps": null,
+          "cost": "5800000",
+          "time": "12d",
+          "required_th": "10"
+        }
+      }
+    },
+    "Lava Launcher": {
+      "id": 1000063,
+      "levels": {
+        "1": {
+          "hitpoints": 500,
+          "dps": null,
+          "cost": "3000000",
+          "time": "2d",
+          "required_th": "9"
+        },
+        "2": {
+          "hitpoints": 575,
+          "dps": null,
+          "cost": "3100000",
+          "time": "3d",
+          "required_th": "9"
+        },
+        "3": {
+          "hitpoints": 660,
+          "dps": null,
+          "cost": "3200000",
+          "time": "4d",
+          "required_th": "9"
+        },
+        "4": {
+          "hitpoints": 760,
+          "dps": null,
+          "cost": "3400000",
+          "time": "5d",
+          "required_th": "9"
+        },
+        "5": {
+          "hitpoints": 875,
+          "dps": null,
+          "cost": "3700000",
+          "time": "6d",
+          "required_th": "9"
+        },
+        "6": {
+          "hitpoints": 1050,
+          "dps": null,
+          "cost": "4000000",
+          "time": "7d",
+          "required_th": "9"
+        },
+        "7": {
+          "hitpoints": 1250,
+          "dps": null,
+          "cost": "4300000",
+          "time": "8d",
+          "required_th": "9"
+        },
+        "8": {
+          "hitpoints": 1450,
+          "dps": null,
+          "cost": "4600000",
+          "time": "10d",
+          "required_th": "9"
+        },
+        "9": {
+          "hitpoints": 1650,
+          "dps": null,
+          "cost": "4900000",
+          "time": "11d",
+          "required_th": "9"
+        },
+        "10": {
+          "hitpoints": 1850,
+          "dps": null,
+          "cost": "5900000",
+          "time": "12d",
+          "required_th": "10"
+        }
+      }
+    },
+    "Guard Post": {
+      "id": 1000051,
+      "levels": {
+        "1": {
+          "hitpoints": 300,
+          "dps": null,
+          "cost": "200000",
+          "time": "4h",
+          "required_th": "4"
+        },
+        "2": {
+          "hitpoints": 350,
+          "dps": null,
+          "cost": "240000",
+          "time": "8h",
+          "required_th": "4"
+        },
+        "3": {
+          "hitpoints": 400,
+          "dps": null,
+          "cost": "280000",
+          "time": "12h",
+          "required_th": "4"
+        },
+        "4": {
+          "hitpoints": 460,
+          "dps": null,
+          "cost": "320000",
+          "time": "1d",
+          "required_th": "4"
+        },
+        "5": {
+          "hitpoints": 550,
+          "dps": null,
+          "cost": "1000000",
+          "time": "2d",
+          "required_th": "5"
+        },
+        "6": {
+          "hitpoints": 650,
+          "dps": null,
+          "cost": "1400000",
+          "time": "4d",
+          "required_th": "6"
+        },
+        "7": {
+          "hitpoints": 750,
+          "dps": null,
+          "cost": "2300000",
+          "time": "6d",
+          "required_th": "7"
+        },
+        "8": {
+          "hitpoints": 850,
+          "dps": null,
+          "cost": "3200000",
+          "time": "8d",
+          "required_th": "8"
+        },
+        "9": {
+          "hitpoints": 1000,
+          "dps": null,
+          "cost": "4100000",
+          "time": "10d",
+          "required_th": "9"
+        },
+        "10": {
+          "hitpoints": 1150,
+          "dps": null,
+          "cost": "5100000",
+          "time": "12d",
+          "required_th": "10"
+        }
+      }
+    },
+    "Builder Hall": {
+      "id": 1000034,
+      "levels": {
+        "1": {
+          "hitpoints": 650,
+          "dps": null,
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": ""
+        },
+        "2": {
+          "hitpoints": 800,
+          "dps": null,
+          "cost": "3500",
+          "time": "5s",
+          "required_th": ""
+        },
+        "3": {
+          "hitpoints": 975,
+          "dps": null,
+          "cost": "30000",
+          "time": "1h",
+          "required_th": ""
+        },
+        "4": {
+          "hitpoints": 1150,
+          "dps": null,
+          "cost": "200000",
+          "time": "1d",
+          "required_th": ""
+        },
+        "5": {
+          "hitpoints": 1350,
+          "dps": null,
+          "cost": "400000",
+          "time": "2d",
+          "required_th": ""
+        },
+        "6": {
+          "hitpoints": 1600,
+          "dps": null,
+          "cost": "1200000",
+          "time": "3d",
+          "required_th": ""
+        },
+        "7": {
+          "hitpoints": 1850,
+          "dps": null,
+          "cost": "1800000",
+          "time": "4d",
+          "required_th": ""
+        },
+        "8": {
+          "hitpoints": 2150,
+          "dps": null,
+          "cost": "2800000",
+          "time": "5d",
+          "required_th": ""
+        },
+        "9": {
+          "hitpoints": 2450,
+          "dps": null,
+          "cost": "3800000",
+          "time": "6d",
+          "required_th": ""
+        },
+        "10": {
+          "hitpoints": 2750,
+          "dps": null,
+          "cost": "4800000",
+          "time": "7d",
+          "required_th": ""
+        }
+      }
+    },
+    "Gold Storage": {
+      "id": 1000038,
+      "levels": {
+        "1": {
+          "hitpoints": 650,
+          "dps": null,
+          "cost": "20000",
+          "time": "30m",
+          "required_th": "3"
+        },
+        "2": {
+          "hitpoints": 800,
+          "dps": null,
+          "cost": "80000",
+          "time": "1h",
+          "required_th": "3"
+        },
+        "3": {
+          "hitpoints": 975,
+          "dps": null,
+          "cost": "200000",
+          "time": "3h",
+          "required_th": "3"
+        },
+        "4": {
+          "hitpoints": 1150,
+          "dps": null,
+          "cost": "300000",
+          "time": "6h",
+          "required_th": "4"
+        },
+        "5": {
+          "hitpoints": 1350,
+          "dps": null,
+          "cost": "600000",
+          "time": "12h",
+          "required_th": "5"
+        },
+        "6": {
+          "hitpoints": 1600,
+          "dps": null,
+          "cost": "1000000",
+          "time": "1d",
+          "required_th": "6"
+        },
+        "7": {
+          "hitpoints": 1850,
+          "dps": null,
+          "cost": "1500000",
+          "time": "2d",
+          "required_th": "7"
+        },
+        "8": {
+          "hitpoints": 2150,
+          "dps": null,
+          "cost": "2000000",
+          "time": "3d",
+          "required_th": "8"
+        },
+        "9": {
+          "hitpoints": 2450,
+          "dps": null,
+          "cost": "2500000",
+          "time": "4d",
+          "required_th": "9"
+        },
+        "10": {
+          "hitpoints": 2750,
+          "dps": null,
+          "cost": "3200000",
+          "time": "5d",
+          "required_th": "10"
+        }
+      }
+    },
+    "Elixir Storage": {
+      "id": 1000036,
+      "levels": {
+        "1": {
+          "hitpoints": 650,
+          "dps": null,
+          "cost": "20000",
+          "time": "30m",
+          "required_th": "3"
+        },
+        "2": {
+          "hitpoints": 800,
+          "dps": null,
+          "cost": "80000",
+          "time": "1h",
+          "required_th": "3"
+        },
+        "3": {
+          "hitpoints": 975,
+          "dps": null,
+          "cost": "200000",
+          "time": "3h",
+          "required_th": "3"
+        },
+        "4": {
+          "hitpoints": 1150,
+          "dps": null,
+          "cost": "300000",
+          "time": "6h",
+          "required_th": "4"
+        },
+        "5": {
+          "hitpoints": 1350,
+          "dps": null,
+          "cost": "600000",
+          "time": "12h",
+          "required_th": "5"
+        },
+        "6": {
+          "hitpoints": 1600,
+          "dps": null,
+          "cost": "1000000",
+          "time": "1d",
+          "required_th": "6"
+        },
+        "7": {
+          "hitpoints": 1850,
+          "dps": null,
+          "cost": "1500000",
+          "time": "2d",
+          "required_th": "7"
+        },
+        "8": {
+          "hitpoints": 2150,
+          "dps": null,
+          "cost": "2000000",
+          "time": "3d",
+          "required_th": "8"
+        },
+        "9": {
+          "hitpoints": 2450,
+          "dps": null,
+          "cost": "2500000",
+          "time": "4d",
+          "required_th": "9"
+        },
+        "10": {
+          "hitpoints": 2750,
+          "dps": null,
+          "cost": "3200000",
+          "time": "5d",
+          "required_th": "10"
+        }
+      }
+    },
+    "Gold Mine": {
+      "id": 1000037,
+      "levels": {
+        "1": {
+          "hitpoints": 300,
+          "dps": null,
+          "cost": "1000",
+          "time": "10m",
+          "required_th": "1"
+        },
+        "2": {
+          "hitpoints": 350,
+          "dps": null,
+          "cost": "5000",
+          "time": "20m",
+          "required_th": "3"
+        },
+        "3": {
+          "hitpoints": 400,
+          "dps": null,
+          "cost": "10000",
+          "time": "40m",
+          "required_th": "3"
+        },
+        "4": {
+          "hitpoints": 460,
+          "dps": null,
+          "cost": "30000",
+          "time": "2h",
+          "required_th": "4"
+        },
+        "5": {
+          "hitpoints": 550,
+          "dps": null,
+          "cost": "60000",
+          "time": "6h",
+          "required_th": "5"
+        },
+        "6": {
+          "hitpoints": 650,
+          "dps": null,
+          "cost": "100000",
+          "time": "1d",
+          "required_th": "6"
+        },
+        "7": {
+          "hitpoints": 750,
+          "dps": null,
+          "cost": "200000",
+          "time": "1d 12h",
+          "required_th": "7"
+        },
+        "8": {
+          "hitpoints": 850,
+          "dps": null,
+          "cost": "300000",
+          "time": "2d",
+          "required_th": "8"
+        },
+        "9": {
+          "hitpoints": 1000,
+          "dps": null,
+          "cost": "400000",
+          "time": "2d 12h",
+          "required_th": "9"
+        },
+        "10": {
+          "hitpoints": 1150,
+          "dps": null,
+          "cost": "800000",
+          "time": "3d",
+          "required_th": "10"
+        }
+      }
+    },
+    "Elixir Collector": {
+      "id": 1000035,
+      "levels": {
+        "1": {
+          "hitpoints": 300,
+          "dps": null,
+          "cost": "1000",
+          "time": "10m",
+          "required_th": "1"
+        },
+        "2": {
+          "hitpoints": 350,
+          "dps": null,
+          "cost": "5000",
+          "time": "20m",
+          "required_th": "3"
+        },
+        "3": {
+          "hitpoints": 400,
+          "dps": null,
+          "cost": "10000",
+          "time": "40m",
+          "required_th": "3"
+        },
+        "4": {
+          "hitpoints": 460,
+          "dps": null,
+          "cost": "30000",
+          "time": "2h",
+          "required_th": "4"
+        },
+        "5": {
+          "hitpoints": 550,
+          "dps": null,
+          "cost": "60000",
+          "time": "6h",
+          "required_th": "5"
+        },
+        "6": {
+          "hitpoints": 650,
+          "dps": null,
+          "cost": "100000",
+          "time": "1d",
+          "required_th": "6"
+        },
+        "7": {
+          "hitpoints": 750,
+          "dps": null,
+          "cost": "200000",
+          "time": "1d 12h",
+          "required_th": "7"
+        },
+        "8": {
+          "hitpoints": 850,
+          "dps": null,
+          "cost": "300000",
+          "time": "2d",
+          "required_th": "8"
+        },
+        "9": {
+          "hitpoints": 1000,
+          "dps": null,
+          "cost": "400000",
+          "time": "2d 12h",
+          "required_th": "9"
+        },
+        "10": {
+          "hitpoints": 1150,
+          "dps": null,
+          "cost": "800000",
+          "time": "3d",
+          "required_th": "10"
+        }
+      }
+    },
+    "Army Camp": {
+      "id": 1000042,
+      "levels": {
+        "1": {
+          "hitpoints": 300,
+          "dps": null,
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Reinforcement Camp": {
+      "id": 1000049,
+      "levels": {
+        "1": {
+          "hitpoints": 300,
+          "dps": null,
+          "cost": "1500000",
+          "time": "Instant",
+          "required_th": "1"
+        }
+      }
+    },
+    "Star Laboratory": {
+      "id": 1000046,
+      "levels": {
+        "1": {
+          "hitpoints": 650,
+          "dps": null,
+          "cost": "1000",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "2": {
+          "hitpoints": 800,
+          "dps": null,
+          "cost": "15000",
+          "time": "10m",
+          "required_th": "2"
+        },
+        "3": {
+          "hitpoints": 975,
+          "dps": null,
+          "cost": "50000",
+          "time": "30m",
+          "required_th": "3"
+        },
+        "4": {
+          "hitpoints": 1150,
+          "dps": null,
+          "cost": "300000",
+          "time": "8h",
+          "required_th": "4"
+        },
+        "5": {
+          "hitpoints": 1350,
+          "dps": null,
+          "cost": "700000",
+          "time": "12h",
+          "required_th": "5"
+        },
+        "6": {
+          "hitpoints": 1600,
+          "dps": null,
+          "cost": "1000000",
+          "time": "2d",
+          "required_th": "6"
+        },
+        "7": {
+          "hitpoints": 1850,
+          "dps": null,
+          "cost": "2000000",
+          "time": "4d",
+          "required_th": "7"
+        },
+        "8": {
+          "hitpoints": 2150,
+          "dps": null,
+          "cost": "3000000",
+          "time": "6d",
+          "required_th": "8"
+        },
+        "9": {
+          "hitpoints": 2450,
+          "dps": null,
+          "cost": "4000000",
+          "time": "8d",
+          "required_th": "9"
+        },
+        "10": {
+          "hitpoints": 2750,
+          "dps": null,
+          "cost": "5000000",
+          "time": "10d",
+          "required_th": "10"
+        }
+      }
+    },
+    "Barracks": {
+      "id": 1000040,
+      "levels": {
+        "1": {
+          "hitpoints": 300,
+          "dps": null,
+          "cost": "1000",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "2": {
+          "hitpoints": 350,
+          "dps": null,
+          "cost": "4000",
+          "time": "1m",
+          "required_th": "2"
+        },
+        "3": {
+          "hitpoints": 400,
+          "dps": null,
+          "cost": "10000",
+          "time": "10m",
+          "required_th": "3"
+        },
+        "4": {
+          "hitpoints": 460,
+          "dps": null,
+          "cost": "25000",
+          "time": "30m",
+          "required_th": "3"
+        },
+        "5": {
+          "hitpoints": 550,
+          "dps": null,
+          "cost": "100000",
+          "time": "3h",
+          "required_th": "4"
+        },
+        "6": {
+          "hitpoints": 650,
+          "dps": null,
+          "cost": "150000",
+          "time": "6h",
+          "required_th": "4"
+        },
+        "7": {
+          "hitpoints": 750,
+          "dps": null,
+          "cost": "300000",
+          "time": "9h",
+          "required_th": "5"
+        },
+        "8": {
+          "hitpoints": 850,
+          "dps": null,
+          "cost": "500000",
+          "time": "1d",
+          "required_th": "6"
+        },
+        "9": {
+          "hitpoints": 1000,
+          "dps": null,
+          "cost": "1000000",
+          "time": "2d",
+          "required_th": "7"
+        },
+        "10": {
+          "hitpoints": 1150,
+          "dps": null,
+          "cost": "1500000",
+          "time": "3d",
+          "required_th": "8"
+        },
+        "11": {
+          "hitpoints": 1300,
+          "dps": null,
+          "cost": "2000000",
+          "time": "4d",
+          "required_th": "9"
+        },
+        "12": {
+          "hitpoints": 1450,
+          "dps": null,
+          "cost": "3000000",
+          "time": "5d",
+          "required_th": "10"
+        }
+      }
+    },
+    "OTTOs Outpost": {
+      "id": 1000078,
+      "levels": {
+        "1": {
+          "hitpoints": 650,
+          "dps": null,
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "6"
+        },
+        "2": {
+          "hitpoints": 800,
+          "dps": null,
+          "cost": "1000000",
+          "time": "1d",
+          "required_th": "6"
+        },
+        "3": {
+          "hitpoints": 975,
+          "dps": null,
+          "cost": "1250000",
+          "time": "2d",
+          "required_th": "6"
+        },
+        "4": {
+          "hitpoints": 1150,
+          "dps": null,
+          "cost": "1500000",
+          "time": "3d",
+          "required_th": "6"
+        },
+        "5": {
+          "hitpoints": 1350,
+          "dps": null,
+          "cost": "1750000",
+          "time": "4d",
+          "required_th": "6"
+        },
+        "6": {
+          "hitpoints": 1600,
+          "dps": null,
+          "cost": "2000000",
+          "time": "5d",
+          "required_th": "6"
+        },
+        "7": {
+          "hitpoints": 1850,
+          "dps": null,
+          "cost": "3000000",
+          "time": "7d",
+          "required_th": "7"
+        },
+        "8": {
+          "hitpoints": 2150,
+          "dps": null,
+          "cost": "4000000",
+          "time": "9d",
+          "required_th": "8"
+        },
+        "9": {
+          "hitpoints": 2450,
+          "dps": null,
+          "cost": "5000000",
+          "time": "10d",
+          "required_th": "9"
+        },
+        "10": {
+          "hitpoints": 2750,
+          "dps": null,
+          "cost": "6000000",
+          "time": "11d",
+          "required_th": "10"
+        }
+      }
+    },
+    "Healing Hut": {
+      "id": 1000082,
+      "levels": {
+        "1": {
+          "hitpoints": 550,
+          "dps": null,
+          "cost": "1500000",
+          "time": "1d 6h",
+          "required_th": "6"
+        },
+        "2": {
+          "hitpoints": 650,
+          "dps": null,
+          "cost": "2000000",
+          "time": "2d",
+          "required_th": "6"
+        },
+        "3": {
+          "hitpoints": 750,
+          "dps": null,
+          "cost": "2500000",
+          "time": "3d",
+          "required_th": "7"
+        },
+        "4": {
+          "hitpoints": 850,
+          "dps": null,
+          "cost": "3250000",
+          "time": "4d",
+          "required_th": "8"
+        },
+        "5": {
+          "hitpoints": 1000,
+          "dps": null,
+          "cost": "4000000",
+          "time": "5d",
+          "required_th": "9"
+        },
+        "6": {
+          "hitpoints": 1150,
+          "dps": null,
+          "cost": "5000000",
+          "time": "6d",
+          "required_th": "10"
+        }
+      }
+    },
+    "BOB Control": {
+      "id": 1000065,
+      "levels": {
+        "1": {
+          "hitpoints": 250,
+          "dps": null,
+          "cost": "100000",
+          "time": "Instant",
+          "required_th": "9"
+        },
+        "2": {
+          "hitpoints": 250,
+          "dps": null,
+          "cost": "500000",
+          "time": "Instant",
+          "required_th": ""
+        },
+        "3": {
+          "hitpoints": 250,
+          "dps": null,
+          "cost": "1000000",
+          "time": "Instant",
+          "required_th": ""
+        },
+        "4": {
+          "hitpoints": 250,
+          "dps": null,
+          "cost": "2000000",
+          "time": "Instant",
+          "required_th": ""
+        },
+        "5": {
+          "hitpoints": 250,
+          "dps": null,
+          "cost": "3000000",
+          "time": "Instant",
+          "required_th": ""
+        }
+      }
+    },
+    "Gem Mine": {
+      "id": 1000058,
+      "levels": {
+        "1": {
+          "hitpoints": 300,
+          "dps": null,
+          "cost": "120000",
+          "time": "1h",
+          "required_th": "3"
+        },
+        "2": {
+          "hitpoints": 350,
+          "dps": null,
+          "cost": "180000",
+          "time": "2h",
+          "required_th": "3"
+        },
+        "3": {
+          "hitpoints": 400,
+          "dps": null,
+          "cost": "240000",
+          "time": "6h",
+          "required_th": "3"
+        },
+        "4": {
+          "hitpoints": 460,
+          "dps": null,
+          "cost": "450000",
+          "time": "8h",
+          "required_th": "4"
+        },
+        "5": {
+          "hitpoints": 550,
+          "dps": null,
+          "cost": "1000000",
+          "time": "12h",
+          "required_th": "5"
+        },
+        "6": {
+          "hitpoints": 650,
+          "dps": null,
+          "cost": "1500000",
+          "time": "1d",
+          "required_th": "6"
+        },
+        "7": {
+          "hitpoints": 750,
+          "dps": null,
+          "cost": "2500000",
+          "time": "2d",
+          "required_th": "7"
+        },
+        "8": {
+          "hitpoints": 850,
+          "dps": null,
+          "cost": "3500000",
+          "time": "4d",
+          "required_th": "8"
+        },
+        "9": {
+          "hitpoints": 1000,
+          "dps": null,
+          "cost": "4500000",
+          "time": "6d",
+          "required_th": "9"
+        },
+        "10": {
+          "hitpoints": 1150,
+          "dps": null,
+          "cost": "5500000",
+          "time": "8d",
+          "required_th": "10"
+        }
+      }
+    },
+    "Clock Tower": {
+      "id": 1000039,
+      "levels": {
+        "1": {
+          "hitpoints": 650,
+          "dps": null,
+          "cost": "150000",
+          "time": "2h",
+          "required_th": "4"
+        },
+        "2": {
+          "hitpoints": 800,
+          "dps": null,
+          "cost": "180000",
+          "time": "3h",
+          "required_th": "4"
+        },
+        "3": {
+          "hitpoints": 975,
+          "dps": null,
+          "cost": "220000",
+          "time": "4h",
+          "required_th": "4"
+        },
+        "4": {
+          "hitpoints": 1150,
+          "dps": null,
+          "cost": "300000",
+          "time": "6h",
+          "required_th": "4"
+        },
+        "5": {
+          "hitpoints": 1350,
+          "dps": null,
+          "cost": "700000",
+          "time": "12h",
+          "required_th": "5"
+        },
+        "6": {
+          "hitpoints": 1600,
+          "dps": null,
+          "cost": "1200000",
+          "time": "1d",
+          "required_th": "6"
+        },
+        "7": {
+          "hitpoints": 1850,
+          "dps": null,
+          "cost": "1700000",
+          "time": "2d",
+          "required_th": "7"
+        },
+        "8": {
+          "hitpoints": 2150,
+          "dps": null,
+          "cost": "2200000",
+          "time": "3d",
+          "required_th": "8"
+        },
+        "9": {
+          "hitpoints": 2450,
+          "dps": null,
+          "cost": "2700000",
+          "time": "4d",
+          "required_th": "9"
+        },
+        "10": {
+          "hitpoints": 2750,
+          "dps": null,
+          "cost": "3700000",
+          "time": "5d",
+          "required_th": "10"
+        }
+      }
+    },
+    "Battle Machine Altar": {
+      "id": 1000053,
+      "levels": {
+        "1": {
+          "hitpoints": 250,
+          "dps": null,
+          "cost": "900000",
+          "time": "12h",
+          "required_th": "5"
+        }
+      }
+    },
+    "Battle Copter Altar": {
+      "id": 1000080,
+      "levels": {
+        "1": {
+          "hitpoints": 250,
+          "dps": null,
+          "cost": "2500000",
+          "time": "Instant",
+          "required_th": "5"
+        }
+      }
+    },
+    "Wall": {
+      "id": 1000033,
+      "levels": {
+        "1": {
+          "hitpoints": 900,
+          "dps": null,
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "2"
+        },
+        "2": {
+          "hitpoints": 1100,
+          "dps": null,
+          "cost": "2000",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "3": {
+          "hitpoints": 1300,
+          "dps": null,
+          "cost": "10000",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "4": {
+          "hitpoints": 1600,
+          "dps": null,
+          "cost": "50000",
+          "time": "Instant",
+          "required_th": "4"
+        },
+        "5": {
+          "hitpoints": 1900,
+          "dps": null,
+          "cost": "150000",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "6": {
+          "hitpoints": 2200,
+          "dps": null,
+          "cost": "240000",
+          "time": "Instant",
+          "required_th": "6"
+        },
+        "7": {
+          "hitpoints": 2500,
+          "dps": null,
+          "cost": "400000",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "8": {
+          "hitpoints": 2750,
+          "dps": null,
+          "cost": "600000",
+          "time": "Instant",
+          "required_th": "8"
+        },
+        "9": {
+          "hitpoints": 3050,
+          "dps": null,
+          "cost": "800000",
+          "time": "Instant",
+          "required_th": "9"
+        },
+        "10": {
+          "hitpoints": 3350,
+          "dps": null,
+          "cost": "1000000",
+          "time": "Instant",
+          "required_th": "10"
+        }
+      }
+    },
+    "Cannon": {
+      "id": 1000044,
+      "levels": {
+        "1": {
+          "hitpoints": 500,
+          "dps": null,
+          "cost": "10000",
+          "time": "1m",
+          "required_th": "1"
+        },
+        "2": {
+          "hitpoints": 575,
+          "dps": null,
+          "cost": "20000",
+          "time": "5m",
+          "required_th": "3"
+        },
+        "3": {
+          "hitpoints": 660,
+          "dps": null,
+          "cost": "50000",
+          "time": "2h",
+          "required_th": "3"
+        },
+        "4": {
+          "hitpoints": 760,
+          "dps": null,
+          "cost": "200000",
+          "time": "8h",
+          "required_th": "4"
+        },
+        "5": {
+          "hitpoints": 875,
+          "dps": null,
+          "cost": "600000",
+          "time": "1d",
+          "required_th": "5"
+        },
+        "6": {
+          "hitpoints": 1050,
+          "dps": null,
+          "cost": "1000000",
+          "time": "2d",
+          "required_th": "6"
+        },
+        "7": {
+          "hitpoints": 1250,
+          "dps": null,
+          "cost": "1800000",
+          "time": "4d",
+          "required_th": "7"
+        },
+        "8": {
+          "hitpoints": 1450,
+          "dps": null,
+          "cost": "2500000",
+          "time": "6d",
+          "required_th": "8"
+        },
+        "9": {
+          "hitpoints": 1650,
+          "dps": null,
+          "cost": "3300000",
+          "time": "8d",
+          "required_th": "9"
+        },
+        "10": {
+          "hitpoints": 1850,
+          "dps": null,
+          "cost": "4500000",
+          "time": "9d",
+          "required_th": "10"
+        }
+      }
+    },
+    "Archer Tower": {
+      "id": 1000048,
+      "levels": {
+        "1": {
+          "hitpoints": 500,
+          "dps": "40",
+          "cost": "12000",
+          "time": "5m",
+          "required_th": "2"
+        },
+        "2": {
+          "hitpoints": 575,
+          "dps": "44",
+          "cost": "30000",
+          "time": "15m",
+          "required_th": "3"
+        },
+        "3": {
+          "hitpoints": 660,
+          "dps": "48",
+          "cost": "60000",
+          "time": "2h",
+          "required_th": "3"
+        },
+        "4": {
+          "hitpoints": 760,
+          "dps": "53",
+          "cost": "250000",
+          "time": "8h",
+          "required_th": "4"
+        },
+        "5": {
+          "hitpoints": 875,
+          "dps": "59",
+          "cost": "800000",
+          "time": "1d",
+          "required_th": "5"
+        },
+        "6": {
+          "hitpoints": 1050,
+          "dps": "64",
+          "cost": "1200000",
+          "time": "2d",
+          "required_th": "6"
+        },
+        "7": {
+          "hitpoints": 1250,
+          "dps": "71",
+          "cost": "2000000",
+          "time": "4d",
+          "required_th": "7"
+        },
+        "8": {
+          "hitpoints": 1450,
+          "dps": "78",
+          "cost": "2800000",
+          "time": "6d",
+          "required_th": "8"
+        },
+        "9": {
+          "hitpoints": 1650,
+          "dps": "86",
+          "cost": "3600000",
+          "time": "8d",
+          "required_th": "9"
+        },
+        "10": {
+          "hitpoints": 1850,
+          "dps": "94",
+          "cost": "4600000",
+          "time": "9d",
+          "required_th": "10"
+        }
+      }
+    },
+    "Firecrackers": {
+      "id": 1000050,
+      "levels": {
+        "1": {
+          "hitpoints": 400,
+          "dps": null,
+          "cost": "40000",
+          "time": "15m",
+          "required_th": "3"
+        },
+        "2": {
+          "hitpoints": 460,
+          "dps": null,
+          "cost": "80000",
+          "time": "2h",
+          "required_th": "3"
+        },
+        "3": {
+          "hitpoints": 530,
+          "dps": null,
+          "cost": "120000",
+          "time": "4h",
+          "required_th": "3"
+        },
+        "4": {
+          "hitpoints": 610,
+          "dps": null,
+          "cost": "300000",
+          "time": "12h",
+          "required_th": "4"
+        },
+        "5": {
+          "hitpoints": 700,
+          "dps": null,
+          "cost": "800000",
+          "time": "1d",
+          "required_th": "5"
+        },
+        "6": {
+          "hitpoints": 850,
+          "dps": null,
+          "cost": "1200000",
+          "time": "2d",
+          "required_th": "6"
+        },
+        "7": {
+          "hitpoints": 1000,
+          "dps": null,
+          "cost": "2000000",
+          "time": "4d",
+          "required_th": "7"
+        },
+        "8": {
+          "hitpoints": 1150,
+          "dps": null,
+          "cost": "3000000",
+          "time": "6d",
+          "required_th": "8"
+        },
+        "9": {
+          "hitpoints": 1300,
+          "dps": null,
+          "cost": "4000000",
+          "time": "8d",
+          "required_th": "9"
+        },
+        "10": {
+          "hitpoints": 1500,
+          "dps": null,
+          "cost": "5000000",
+          "time": "9d",
+          "required_th": "10"
+        }
+      }
+    },
+    "Hidden Tesla": {
+      "id": 1000043,
+      "levels": {
+        "1": {
+          "hitpoints": 300,
+          "dps": null,
+          "cost": "50000",
+          "time": "30m",
+          "required_th": "3"
+        },
+        "2": {
+          "hitpoints": 350,
+          "dps": null,
+          "cost": "100000",
+          "time": "3h",
+          "required_th": "3"
+        },
+        "3": {
+          "hitpoints": 400,
+          "dps": null,
+          "cost": "150000",
+          "time": "5h",
+          "required_th": "3"
+        },
+        "4": {
+          "hitpoints": 460,
+          "dps": null,
+          "cost": "280000",
+          "time": "10h",
+          "required_th": "4"
+        },
+        "5": {
+          "hitpoints": 550,
+          "dps": null,
+          "cost": "700000",
+          "time": "1d",
+          "required_th": "5"
+        },
+        "6": {
+          "hitpoints": 650,
+          "dps": null,
+          "cost": "1300000",
+          "time": "2d",
+          "required_th": "6"
+        },
+        "7": {
+          "hitpoints": 750,
+          "dps": null,
+          "cost": "2100000",
+          "time": "4d",
+          "required_th": "7"
+        },
+        "8": {
+          "hitpoints": 850,
+          "dps": null,
+          "cost": "3100000",
+          "time": "6d",
+          "required_th": "8"
+        },
+        "9": {
+          "hitpoints": 1000,
+          "dps": null,
+          "cost": "4100000",
+          "time": "8d",
+          "required_th": "9"
+        },
+        "10": {
+          "hitpoints": 1150,
+          "dps": null,
+          "cost": "5100000",
+          "time": "10d",
+          "required_th": "10"
+        }
+      }
+    },
+    "Air Bombs": {
+      "id": 1000054,
+      "levels": {
+        "1": {
+          "hitpoints": 1000,
+          "dps": null,
+          "cost": "300000",
+          "time": "6h",
+          "required_th": "4"
+        },
+        "2": {
+          "hitpoints": 1100,
+          "dps": null,
+          "cost": "320000",
+          "time": "12h",
+          "required_th": "4"
+        },
+        "3": {
+          "hitpoints": 1250,
+          "dps": null,
+          "cost": "340000",
+          "time": "1d",
+          "required_th": "4"
+        },
+        "4": {
+          "hitpoints": 1400,
+          "dps": null,
+          "cost": "360000",
+          "time": "2d",
+          "required_th": "4"
+        },
+        "5": {
+          "hitpoints": 1600,
+          "dps": null,
+          "cost": "1200000",
+          "time": "3d",
+          "required_th": "5"
+        },
+        "6": {
+          "hitpoints": 1850,
+          "dps": null,
+          "cost": "1500000",
+          "time": "5d",
+          "required_th": "6"
+        },
+        "7": {
+          "hitpoints": 2100,
+          "dps": null,
+          "cost": "2400000",
+          "time": "7d",
+          "required_th": "7"
+        },
+        "8": {
+          "hitpoints": 2350,
+          "dps": null,
+          "cost": "3400000",
+          "time": "8d",
+          "required_th": "8"
+        },
+        "9": {
+          "hitpoints": 2600,
+          "dps": null,
+          "cost": "4400000",
+          "time": "10d",
+          "required_th": "9"
+        },
+        "10": {
+          "hitpoints": 2900,
+          "dps": null,
+          "cost": "5400000",
+          "time": "12d",
+          "required_th": "10"
+        }
+      }
+    },
+    "Multi Mortar": {
+      "id": 1000045,
+      "levels": {
+        "1": {
+          "hitpoints": 500,
+          "dps": null,
+          "cost": "600000",
+          "time": "8h",
+          "required_th": "5"
+        },
+        "2": {
+          "hitpoints": 575,
+          "dps": null,
+          "cost": "700000",
+          "time": "12h",
+          "required_th": "5"
+        },
+        "3": {
+          "hitpoints": 660,
+          "dps": null,
+          "cost": "800000",
+          "time": "1d",
+          "required_th": "5"
+        },
+        "4": {
+          "hitpoints": 760,
+          "dps": null,
+          "cost": "1000000",
+          "time": "2d",
+          "required_th": "5"
+        },
+        "5": {
+          "hitpoints": 875,
+          "dps": null,
+          "cost": "1200000",
+          "time": "3d",
+          "required_th": "5"
+        },
+        "6": {
+          "hitpoints": 1050,
+          "dps": null,
+          "cost": "1600000",
+          "time": "5d",
+          "required_th": "6"
+        },
+        "7": {
+          "hitpoints": 1250,
+          "dps": null,
+          "cost": "2500000",
+          "time": "7d",
+          "required_th": "7"
+        },
+        "8": {
+          "hitpoints": 1450,
+          "dps": null,
+          "cost": "3500000",
+          "time": "9d",
+          "required_th": "8"
+        },
+        "9": {
+          "hitpoints": 1650,
+          "dps": null,
+          "cost": "4500000",
+          "time": "11d",
+          "required_th": "9"
+        },
+        "10": {
+          "hitpoints": 1850,
+          "dps": null,
+          "cost": "5500000",
+          "time": "12d",
+          "required_th": "10"
+        }
+      }
+    },
+    "X-Bow": {
+      "id": 1000081,
+      "levels": {
+        "1": {
+          "hitpoints": 1700,
+          "dps": "80",
+          "cost": "4400000",
+          "time": "7d",
+          "required_th": "10"
+        },
+        "2": {
+          "hitpoints": 1900,
+          "dps": "89",
+          "cost": "4800000",
+          "time": "8d",
+          "required_th": "10"
+        },
+        "3": {
+          "hitpoints": 2100,
+          "dps": "97",
+          "cost": "5200000",
+          "time": "10d",
+          "required_th": "10"
+        },
+        "4": {
+          "hitpoints": 2350,
+          "dps": "107",
+          "cost": "5600000",
+          "time": "11d",
+          "required_th": "10"
+        },
+        "5": {
+          "hitpoints": 2600,
+          "dps": "117",
+          "cost": "6000000",
+          "time": "12d",
+          "required_th": "10"
+        }
+      }
+    },
+    "Builders Hut": {
+      "id": 1000047,
+      "levels": {
+        "1": {
+          "hitpoints": 300,
+          "dps": null,
+          "cost": "1000",
+          "time": "Instant",
+          "required_th": "2"
+        }
+      }
+    }
+  },
+  "troops": {
+    "Barbarian": {
+      "id": 4000000,
+      "levels": {
+        "1": {
+          "hitpoints": 310,
+          "dps": "51",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Archer": {
+      "id": 4000001,
+      "levels": {
+        "1": {
+          "hitpoints": 76,
+          "dps": "46",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Giant": {
+      "id": 4000003,
+      "levels": {
+        "1": {
+          "hitpoints": 3000,
+          "dps": "114",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Goblin": {
+      "id": 4000002,
+      "levels": {
+        "1": {
+          "hitpoints": 166,
+          "dps": "82",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Wall Breaker": {
+      "id": 4000004,
+      "levels": {
+        "1": {
+          "hitpoints": 170,
+          "dps": "126",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Balloon": {
+      "id": 4000005,
+      "levels": {
+        "1": {
+          "hitpoints": 1360,
+          "dps": "326",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Wizard": {
+      "id": 4000006,
+      "levels": {
+        "1": {
+          "hitpoints": 330,
+          "dps": "310",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Healer": {
+      "id": 4000007,
+      "levels": {
+        "1": {
+          "hitpoints": 2100,
+          "dps": null,
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Dragon": {
+      "id": 4000008,
+      "levels": {
+        "1": {
+          "hitpoints": 6000,
+          "dps": "430",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "P.E.K.K.A": {
+      "levels": {
+        "1": {
+          "hitpoints": 3000,
+          "dps": "260",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "N/A"
+        },
+        "2": {
+          "hitpoints": 3500,
+          "dps": "290",
+          "cost": "600000",
+          "time": "12h",
+          "required_th": "6"
+        },
+        "3": {
+          "hitpoints": 4000,
+          "dps": "320",
+          "cost": "1300000",
+          "time": "18h",
+          "required_th": "6"
+        },
+        "4": {
+          "hitpoints": 4500,
+          "dps": "360",
+          "cost": "2000000",
+          "time": "1d",
+          "required_th": "7"
+        },
+        "5": {
+          "hitpoints": 5000,
+          "dps": "410",
+          "cost": "2100000",
+          "time": "1d 12h",
+          "required_th": "8"
+        },
+        "6": {
+          "hitpoints": 5500,
+          "dps": "470",
+          "cost": "2500000",
+          "time": "2d",
+          "required_th": "8"
+        },
+        "7": {
+          "hitpoints": 5900,
+          "dps": "540",
+          "cost": "4500000",
+          "time": "3d",
+          "required_th": "9"
+        },
+        "8": {
+          "hitpoints": 6300,
+          "dps": "610",
+          "cost": "5000000",
+          "time": "3d 12h",
+          "required_th": "10"
+        },
+        "9": {
+          "hitpoints": 6700,
+          "dps": "680",
+          "cost": "5800000",
+          "time": "4d",
+          "required_th": "11"
+        },
+        "10": {
+          "hitpoints": 7200,
+          "dps": "750",
+          "cost": "10500000",
+          "time": "5d 12h",
+          "required_th": "13"
+        },
+        "11": {
+          "hitpoints": 7700,
+          "dps": "810",
+          "cost": "12000000",
+          "time": "7d",
+          "required_th": "14"
+        },
+        "12": {
+          "hitpoints": 8200,
+          "dps": "870",
+          "cost": "16000000",
+          "time": "10d",
+          "required_th": "15"
+        },
+        "13": {
+          "hitpoints": 8800,
+          "dps": "940",
+          "cost": "28000000",
+          "time": "14d 12h",
+          "required_th": "16"
+        }
+      }
+    },
+    "Baby Dragon": {
+      "id": 4000023,
+      "levels": {
+        "1": {
+          "hitpoints": 2350,
+          "dps": "185",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Miner": {
+      "id": 4000024,
+      "levels": {
+        "1": {
+          "hitpoints": 2050,
+          "dps": "195",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Electro Dragon": {
+      "id": 4000059,
+      "levels": {
+        "1": {
+          "hitpoints": 6700,
+          "dps": "500",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Yeti": {
+      "id": 4000053,
+      "levels": {
+        "1": {
+          "hitpoints": 4650,
+          "dps": "380",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Dragon Rider": {
+      "id": 4000065,
+      "levels": {
+        "1": {
+          "hitpoints": 6000,
+          "dps": "510",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Electro Titan": {
+      "id": 4000095,
+      "levels": {
+        "1": {
+          "hitpoints": 9200,
+          "dps": "270",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Root Rider": {
+      "id": 4000110,
+      "levels": {
+        "1": {
+          "hitpoints": 6700,
+          "dps": "125",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Minion": {
+      "id": 4000010,
+      "levels": {
+        "1": {
+          "hitpoints": 140,
+          "dps": "92",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Hog Rider": {
+      "id": 4000011,
+      "levels": {
+        "1": {
+          "hitpoints": 1750,
+          "dps": "250",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Valkyrie": {
+      "id": 4000012,
+      "levels": {
+        "1": {
+          "hitpoints": 2900,
+          "dps": "255",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Golem": {
+      "id": 4000013,
+      "levels": {
+        "1": {
+          "hitpoints": 10600,
+          "dps": "120",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Witch": {
+      "id": 4000015,
+      "levels": {
+        "1": {
+          "hitpoints": 650,
+          "dps": "260",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Lava Hound": {
+      "id": 4000017,
+      "levels": {
+        "1": {
+          "hitpoints": 9500,
+          "dps": "24",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Bowler": {
+      "id": 4000022,
+      "levels": {
+        "1": {
+          "hitpoints": 860,
+          "dps": "160",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Ice Golem": {
+      "id": 4000058,
+      "levels": {
+        "1": {
+          "hitpoints": 4350,
+          "dps": "56",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Headhunter": {
+      "id": 4000082,
+      "levels": {
+        "1": {
+          "hitpoints": 500,
+          "dps": "135",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Apprentice Warden": {
+      "id": 4000097,
+      "levels": {
+        "1": {
+          "hitpoints": 1950,
+          "dps": "215",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Druid": {
+      "id": 4000123,
+      "levels": {
+        "1": {
+          "hitpoints": 1850,
+          "dps": null,
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "PEKKA": {
+      "id": 4000009,
+      "levels": {
+        "1": {
+          "hitpoints": 8800,
+          "dps": "940",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    }
+  },
+  "traps": {
+    "Bomb": {
+      "id": 12000000,
+      "levels": {
+        "1": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "400",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "2": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "1000",
+          "time": "1m",
+          "required_th": "3"
+        },
+        "3": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "10000",
+          "time": "5m",
+          "required_th": "5"
+        },
+        "4": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "40000",
+          "time": "30m",
+          "required_th": "7"
+        },
+        "5": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "100000",
+          "time": "1h",
+          "required_th": "8"
+        },
+        "6": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "230000",
+          "time": "2h",
+          "required_th": "9"
+        },
+        "7": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "330000",
+          "time": "3h",
+          "required_th": "10"
+        },
+        "8": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "500000",
+          "time": "4h",
+          "required_th": "11"
+        },
+        "9": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "750000",
+          "time": "6h",
+          "required_th": "13"
+        },
+        "10": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "1300000",
+          "time": "12h",
+          "required_th": "14"
+        },
+        "11": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "2500000",
+          "time": "18h",
+          "required_th": "15"
+        },
+        "12": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "4000000",
+          "time": "1d",
+          "required_th": "16"
+        },
+        "13": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "8500000",
+          "time": "2d",
+          "required_th": "17"
+        },
+        "14": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "14000000",
+          "time": "8d",
+          "required_th": "18"
+        }
+      }
+    },
+    "Spring Trap": {
+      "id": 12000001,
+      "levels": {
+        "1": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "2000",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "2": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "130000",
+          "time": "1h",
+          "required_th": "7"
+        },
+        "3": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "240000",
+          "time": "2h",
+          "required_th": "8"
+        },
+        "4": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "350000",
+          "time": "3h",
+          "required_th": "9"
+        },
+        "5": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "800000",
+          "time": "4h",
+          "required_th": "10"
+        },
+        "6": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "1000000",
+          "time": "6h",
+          "required_th": "11"
+        },
+        "7": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "1700000",
+          "time": "8h",
+          "required_th": "12"
+        },
+        "8": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "2000000",
+          "time": "12h",
+          "required_th": "13"
+        },
+        "9": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "3000000",
+          "time": "18h",
+          "required_th": "14"
+        },
+        "10": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "4000000",
+          "time": "1d",
+          "required_th": "15"
+        },
+        "11": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "6000000",
+          "time": "2d",
+          "required_th": "16"
+        },
+        "12": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "13000000",
+          "time": "3d",
+          "required_th": "17"
+        },
+        "13": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "16000000",
+          "time": "11d",
+          "required_th": "18"
+        }
+      }
+    },
+    "Giant Bomb": {
+      "id": 12000002,
+      "levels": {
+        "1": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "12500",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "2": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "75000",
+          "time": "1h",
+          "required_th": "6"
+        },
+        "3": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "220000",
+          "time": "3h",
+          "required_th": "8"
+        },
+        "4": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "750000",
+          "time": "4h",
+          "required_th": "10"
+        },
+        "5": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "900000",
+          "time": "10h",
+          "required_th": "11"
+        },
+        "6": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "1300000",
+          "time": "11h",
+          "required_th": "13"
+        },
+        "7": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "1500000",
+          "time": "12h",
+          "required_th": "13"
+        },
+        "8": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "2000000",
+          "time": "1d",
+          "required_th": "14"
+        },
+        "9": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "3200000",
+          "time": "2d",
+          "required_th": "15"
+        },
+        "10": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "5500000",
+          "time": "2d 12h",
+          "required_th": "16"
+        },
+        "11": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "10000000",
+          "time": "4d",
+          "required_th": "17"
+        },
+        "12": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "17000000",
+          "time": "10d 12h",
+          "required_th": "18"
+        }
+      }
+    },
+    "Air Bomb": {
+      "id": 12000005,
+      "levels": {
+        "1": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "4000",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "2": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "20000",
+          "time": "30m",
+          "required_th": "5"
+        },
+        "3": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "75000",
+          "time": "1h",
+          "required_th": "7"
+        },
+        "4": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "300000",
+          "time": "4h",
+          "required_th": "9"
+        },
+        "5": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "550000",
+          "time": "8h",
+          "required_th": "11"
+        },
+        "6": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "800000",
+          "time": "12h",
+          "required_th": "12"
+        },
+        "7": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "1000000",
+          "time": "14h",
+          "required_th": "13"
+        },
+        "8": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "1200000",
+          "time": "16h",
+          "required_th": "13"
+        },
+        "9": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "2000000",
+          "time": "1d",
+          "required_th": "14"
+        },
+        "10": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "3000000",
+          "time": "1d 12h",
+          "required_th": "15"
+        },
+        "11": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "5000000",
+          "time": "2d",
+          "required_th": "16"
+        },
+        "12": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "9500000",
+          "time": "3d",
+          "required_th": "17"
+        },
+        "13": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "15000000",
+          "time": "9d",
+          "required_th": "18"
+        }
+      }
+    },
+    "Seeking Air Mine": {
+      "id": 12000006,
+      "levels": {
+        "1": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "12000",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "2": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "600000",
+          "time": "6h",
+          "required_th": "9"
+        },
+        "3": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "1200000",
+          "time": "12h",
+          "required_th": "10"
+        },
+        "4": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "2500000",
+          "time": "1d 12h",
+          "required_th": "13"
+        },
+        "5": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "5000000",
+          "time": "2d",
+          "required_th": "15"
+        },
+        "6": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "6500000",
+          "time": "3d",
+          "required_th": "16"
+        },
+        "7": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "12000000",
+          "time": "5d",
+          "required_th": "17"
+        },
+        "8": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "19000000",
+          "time": "11d 12h",
+          "required_th": "18"
+        }
+      }
+    },
+    "Skeleton Trap": {
+      "id": 12000008,
+      "levels": {
+        "1": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "6000",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "2": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "250000",
+          "time": "5h",
+          "required_th": "8"
+        },
+        "3": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "400000",
+          "time": "8h",
+          "required_th": "9"
+        },
+        "4": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "1000000",
+          "time": "12h",
+          "required_th": "10"
+        },
+        "5": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "18000000",
+          "time": "7d",
+          "required_th": "18"
+        }
+      }
+    },
+    "Tornado Trap": {
+      "id": 12000016,
+      "levels": {
+        "1": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "1000000",
+          "time": "Instant",
+          "required_th": "11"
+        },
+        "2": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "2000000",
+          "time": "1d",
+          "required_th": "11"
+        },
+        "3": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "2500000",
+          "time": "2d",
+          "required_th": "12"
+        }
+      }
+    }
+  },
+  "pets": {
+    "L.A.S.S.I": {
+      "id": 73000000,
+      "levels": {
+        "1": {
+          "hitpoints": 4500,
+          "dps": "400",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Electro Owl": {
+      "id": 73000002,
+      "levels": {
+        "1": {
+          "hitpoints": 3000,
+          "dps": "170",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Mighty Yak": {
+      "id": 73000001,
+      "levels": {
+        "1": {
+          "hitpoints": 6300,
+          "dps": "116",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Unicorn": {
+      "id": 73000003,
+      "levels": {
+        "1": {
+          "hitpoints": 2325,
+          "dps": null,
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Frosty": {
+      "id": 73000009,
+      "levels": {
+        "1": {
+          "hitpoints": 3800,
+          "dps": "150",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Diggy": {
+      "id": 73000008,
+      "levels": {
+        "1": {
+          "hitpoints": 5000,
+          "dps": "150",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Poison Lizard": {
+      "id": 73000007,
+      "levels": {
+        "1": {
+          "hitpoints": 2300,
+          "dps": "335",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Phoenix": {
+      "id": 73000004,
+      "levels": {
+        "1": {
+          "hitpoints": 4200,
+          "dps": "250",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Spirit Fox": {
+      "id": 73000010,
+      "levels": {
+        "1": {
+          "hitpoints": 2800,
+          "dps": "180",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Angry Jelly": {
+      "id": 73000011,
+      "levels": {
+        "1": {
+          "hitpoints": 2125,
+          "dps": "193",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    }
+  },
+  "heroes": {
+    "Barbarian King": {
+      "id": 28000000,
+      "levels": {
+        "1": {
+          "hitpoints": 12725,
+          "dps": "678",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Archer Queen": {
+      "id": 28000001,
+      "levels": {
+        "1": {
+          "hitpoints": 3456,
+          "dps": "795",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Grand Warden": {
+      "id": 28000002,
+      "levels": {
+        "1": {
+          "hitpoints": 2584,
+          "dps": "339",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Royal Champion": {
+      "id": 28000004,
+      "levels": {
+        "1": {
+          "hitpoints": 4298,
+          "dps": "575",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Battle Machine": {
+      "id": 28000003,
+      "levels": {
+        "1": {
+          "hitpoints": 5380,
+          "dps": "290",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Battle Copter": {
+      "id": 28000005,
+      "levels": {
+        "1": {
+          "hitpoints": 3456,
+          "dps": "193",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    }
+  },
+  "hero_equipment": {
+    "Barbarian Puppet": {
+      "id": 90000000,
+      "levels": {
+        "1": {
+          "hitpoints": 309,
+          "dps": null,
+          "cost": "120 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "2": {
+          "hitpoints": 385,
+          "dps": null,
+          "cost": "240 / 20 / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "3": {
+          "hitpoints": 467,
+          "dps": null,
+          "cost": "400 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "4": {
+          "hitpoints": 564,
+          "dps": null,
+          "cost": "600 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "5": {
+          "hitpoints": 649,
+          "dps": null,
+          "cost": "840 / 100 / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "6": {
+          "hitpoints": 734,
+          "dps": null,
+          "cost": "1120 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "7": {
+          "hitpoints": 836,
+          "dps": null,
+          "cost": "1440 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "8": {
+          "hitpoints": 940,
+          "dps": null,
+          "cost": "1800 / 200 / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "9": {
+          "hitpoints": 1045,
+          "dps": null,
+          "cost": "1900 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "10": {
+          "hitpoints": 1155,
+          "dps": null,
+          "cost": "2000 / - / -",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "11": {
+          "hitpoints": 1265,
+          "dps": null,
+          "cost": "2100 / 400 / -",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "12": {
+          "hitpoints": 1445,
+          "dps": null,
+          "cost": "2200 / - / -",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "13": {
+          "hitpoints": 1755,
+          "dps": null,
+          "cost": "2300 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "14": {
+          "hitpoints": 2087,
+          "dps": null,
+          "cost": "2400 / 600 / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "15": {
+          "hitpoints": 2444,
+          "dps": null,
+          "cost": "2500 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "16": {
+          "hitpoints": 2703,
+          "dps": null,
+          "cost": "2600 / - / -",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "17": {
+          "hitpoints": 3093,
+          "dps": null,
+          "cost": "2700 / 600 / -",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "18": {
+          "hitpoints": 3366,
+          "dps": null,
+          "cost": "N/A",
+          "time": "Instant",
+          "required_th": "7"
+        }
+      }
+    },
+    "Rage Vial": {
+      "id": 90000001,
+      "levels": {
+        "1": {
+          "hitpoints": null,
+          "dps": "17",
+          "cost": "120 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "2": {
+          "hitpoints": null,
+          "dps": "22",
+          "cost": "240 / 20 / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "3": {
+          "hitpoints": null,
+          "dps": "27",
+          "cost": "400 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "4": {
+          "hitpoints": null,
+          "dps": "32",
+          "cost": "600 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "5": {
+          "hitpoints": null,
+          "dps": "37",
+          "cost": "840 / 100 / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "6": {
+          "hitpoints": null,
+          "dps": "42",
+          "cost": "1120 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "7": {
+          "hitpoints": null,
+          "dps": "48",
+          "cost": "1440 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "8": {
+          "hitpoints": null,
+          "dps": "54",
+          "cost": "1800 / 200 / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "9": {
+          "hitpoints": null,
+          "dps": "60",
+          "cost": "1900 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "10": {
+          "hitpoints": null,
+          "dps": "66",
+          "cost": "2000 / - / -",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "11": {
+          "hitpoints": null,
+          "dps": "72",
+          "cost": "2100 / 400 / -",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "12": {
+          "hitpoints": null,
+          "dps": "79",
+          "cost": "2200 / - / -",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "13": {
+          "hitpoints": null,
+          "dps": "86",
+          "cost": "2300 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "14": {
+          "hitpoints": null,
+          "dps": "94",
+          "cost": "2400 / 600 / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "15": {
+          "hitpoints": null,
+          "dps": "104",
+          "cost": "2500 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "16": {
+          "hitpoints": null,
+          "dps": "112",
+          "cost": "2600 / - / -",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "17": {
+          "hitpoints": null,
+          "dps": "120",
+          "cost": "2700 / 600 / -",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "18": {
+          "hitpoints": null,
+          "dps": "128",
+          "cost": "N/A",
+          "time": "Instant",
+          "required_th": "7"
+        }
+      }
+    },
+    "Giant Gauntlet": {
+      "id": 90000010,
+      "levels": {
+        "1": {
+          "hitpoints": null,
+          "dps": "17",
+          "cost": "120 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "2": {
+          "hitpoints": null,
+          "dps": "20",
+          "cost": "240 / 20 / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "3": {
+          "hitpoints": null,
+          "dps": "23",
+          "cost": "400 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "4": {
+          "hitpoints": null,
+          "dps": "26",
+          "cost": "600 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "5": {
+          "hitpoints": null,
+          "dps": "29",
+          "cost": "840 / 100 / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "6": {
+          "hitpoints": null,
+          "dps": "32",
+          "cost": "1120 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "7": {
+          "hitpoints": null,
+          "dps": "34",
+          "cost": "1440 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "8": {
+          "hitpoints": null,
+          "dps": "37",
+          "cost": "1800 / 200 / 10",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "9": {
+          "hitpoints": null,
+          "dps": "43",
+          "cost": "1900 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "10": {
+          "hitpoints": null,
+          "dps": "53",
+          "cost": "2000 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "11": {
+          "hitpoints": null,
+          "dps": "63",
+          "cost": "2100 / 400 / 20",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "12": {
+          "hitpoints": null,
+          "dps": "74",
+          "cost": "2200 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "13": {
+          "hitpoints": null,
+          "dps": "84",
+          "cost": "2300 / - / -",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "14": {
+          "hitpoints": null,
+          "dps": "94",
+          "cost": "2400 / 600 / 30",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "15": {
+          "hitpoints": null,
+          "dps": "104",
+          "cost": "2500 / - / -",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "16": {
+          "hitpoints": null,
+          "dps": "115",
+          "cost": "2600 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "17": {
+          "hitpoints": null,
+          "dps": "125",
+          "cost": "2700 / 600 / 50",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "18": {
+          "hitpoints": null,
+          "dps": "135",
+          "cost": "2800 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "19": {
+          "hitpoints": null,
+          "dps": "137",
+          "cost": "2900 / - / -",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "20": {
+          "hitpoints": null,
+          "dps": "140",
+          "cost": "3000 / 600 / 100",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "21": {
+          "hitpoints": null,
+          "dps": "142",
+          "cost": "3100 / - / -",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "22": {
+          "hitpoints": null,
+          "dps": "145",
+          "cost": "3200 / - / -",
+          "time": "Instant",
+          "required_th": "8"
+        },
+        "23": {
+          "hitpoints": null,
+          "dps": "147",
+          "cost": "3300 / 600 / 120",
+          "time": "Instant",
+          "required_th": "8"
+        },
+        "24": {
+          "hitpoints": null,
+          "dps": "150",
+          "cost": "3400 / - / -",
+          "time": "Instant",
+          "required_th": "8"
+        },
+        "25": {
+          "hitpoints": null,
+          "dps": "152",
+          "cost": "3500 / - / -",
+          "time": "Instant",
+          "required_th": "9"
+        },
+        "26": {
+          "hitpoints": null,
+          "dps": "155",
+          "cost": "3600 / 600 / 150",
+          "time": "Instant",
+          "required_th": "9"
+        },
+        "27": {
+          "hitpoints": null,
+          "dps": "160",
+          "cost": "N/A",
+          "time": "Instant",
+          "required_th": "9"
+        }
+      }
+    },
+    "Earthquake Boots": {
+      "id": 90000008,
+      "levels": {
+        "1": {
+          "hitpoints": 209,
+          "dps": "13",
+          "cost": "120 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "2": {
+          "hitpoints": 244,
+          "dps": "15",
+          "cost": "240 / 20 / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "3": {
+          "hitpoints": 278,
+          "dps": "17",
+          "cost": "400 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "4": {
+          "hitpoints": 313,
+          "dps": "19",
+          "cost": "600 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "5": {
+          "hitpoints": 348,
+          "dps": "21",
+          "cost": "840 / 100 / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "6": {
+          "hitpoints": 383,
+          "dps": "23",
+          "cost": "1120 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "7": {
+          "hitpoints": 418,
+          "dps": "26",
+          "cost": "1440 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "8": {
+          "hitpoints": 452,
+          "dps": "28",
+          "cost": "1800 / 200 / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "9": {
+          "hitpoints": 522,
+          "dps": "32",
+          "cost": "1900 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "10": {
+          "hitpoints": 677,
+          "dps": "40",
+          "cost": "2000 / - / -",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "11": {
+          "hitpoints": 831,
+          "dps": "48",
+          "cost": "2100 / 400 / -",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "12": {
+          "hitpoints": 986,
+          "dps": "55",
+          "cost": "2200 / - / -",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "13": {
+          "hitpoints": 1200,
+          "dps": "63",
+          "cost": "2300 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "14": {
+          "hitpoints": 1500,
+          "dps": "71",
+          "cost": "2400 / 600 / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "15": {
+          "hitpoints": 1800,
+          "dps": "79",
+          "cost": "2500 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "16": {
+          "hitpoints": 2100,
+          "dps": "86",
+          "cost": "2600 / - / -",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "17": {
+          "hitpoints": 2300,
+          "dps": "94",
+          "cost": "2700 / 600 / -",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "18": {
+          "hitpoints": 2500,
+          "dps": "102",
+          "cost": "N/A",
+          "time": "Instant",
+          "required_th": "7"
+        }
+      }
+    },
+    "Archer Puppet": {
+      "id": 90000002,
+      "levels": {
+        "1": {
+          "hitpoints": null,
+          "dps": "28",
+          "cost": "120 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "2": {
+          "hitpoints": null,
+          "dps": "37",
+          "cost": "240 / 20 / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "3": {
+          "hitpoints": null,
+          "dps": "46",
+          "cost": "400 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "4": {
+          "hitpoints": null,
+          "dps": "54",
+          "cost": "600 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "5": {
+          "hitpoints": null,
+          "dps": "61",
+          "cost": "840 / 100 / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "6": {
+          "hitpoints": null,
+          "dps": "68",
+          "cost": "1120 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "7": {
+          "hitpoints": null,
+          "dps": "78",
+          "cost": "1440 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "8": {
+          "hitpoints": null,
+          "dps": "88",
+          "cost": "1800 / 200 / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "9": {
+          "hitpoints": null,
+          "dps": "99",
+          "cost": "1900 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "10": {
+          "hitpoints": null,
+          "dps": "110",
+          "cost": "2000 / - / -",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "11": {
+          "hitpoints": null,
+          "dps": "120",
+          "cost": "2100 / 400 / -",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "12": {
+          "hitpoints": null,
+          "dps": "127",
+          "cost": "2200 / - / -",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "13": {
+          "hitpoints": null,
+          "dps": "134",
+          "cost": "2300 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "14": {
+          "hitpoints": null,
+          "dps": "140",
+          "cost": "2400 / 600 / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "15": {
+          "hitpoints": null,
+          "dps": "145",
+          "cost": "2500 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "16": {
+          "hitpoints": null,
+          "dps": "150",
+          "cost": "2600 / - / -",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "17": {
+          "hitpoints": null,
+          "dps": "154",
+          "cost": "2700 / 600 / -",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "18": {
+          "hitpoints": null,
+          "dps": "159",
+          "cost": "N/A",
+          "time": "Instant",
+          "required_th": "7"
+        }
+      }
+    },
+    "Invisibility Vial": {
+      "id": 90000003,
+      "levels": {
+        "1": {
+          "hitpoints": 80,
+          "dps": null,
+          "cost": "120 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "2": {
+          "hitpoints": 100,
+          "dps": null,
+          "cost": "240 / 20 / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "3": {
+          "hitpoints": 120,
+          "dps": null,
+          "cost": "400 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "4": {
+          "hitpoints": 140,
+          "dps": null,
+          "cost": "600 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "5": {
+          "hitpoints": 170,
+          "dps": null,
+          "cost": "840 / 100 / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "6": {
+          "hitpoints": 200,
+          "dps": null,
+          "cost": "1120 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "7": {
+          "hitpoints": 250,
+          "dps": null,
+          "cost": "1440 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "8": {
+          "hitpoints": 300,
+          "dps": null,
+          "cost": "1800 / 200 / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "9": {
+          "hitpoints": 340,
+          "dps": null,
+          "cost": "1900 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "10": {
+          "hitpoints": 380,
+          "dps": null,
+          "cost": "2000 / - / -",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "11": {
+          "hitpoints": 420,
+          "dps": null,
+          "cost": "2100 / 400 / -",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "12": {
+          "hitpoints": 460,
+          "dps": null,
+          "cost": "2200 / - / -",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "13": {
+          "hitpoints": 500,
+          "dps": null,
+          "cost": "2300 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "14": {
+          "hitpoints": 540,
+          "dps": null,
+          "cost": "2400 / 600 / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "15": {
+          "hitpoints": 580,
+          "dps": null,
+          "cost": "2500 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "16": {
+          "hitpoints": 620,
+          "dps": null,
+          "cost": "2600 / - / -",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "17": {
+          "hitpoints": 660,
+          "dps": null,
+          "cost": "2700 / 600 / -",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "18": {
+          "hitpoints": 700,
+          "dps": null,
+          "cost": "N/A",
+          "time": "Instant",
+          "required_th": "7"
+        }
+      }
+    },
+    "Giant Arrow": {
+      "levels": {
+        "1": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "N/A / N/A",
+          "time": "Instant",
+          "required_th": "2"
+        },
+        "2": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "120 / -",
+          "time": "Instant",
+          "required_th": "2"
+        },
+        "3": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "240 / 20",
+          "time": "Instant",
+          "required_th": "2"
+        },
+        "4": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "400 / -",
+          "time": "Instant",
+          "required_th": "2"
+        },
+        "5": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "600 / -",
+          "time": "Instant",
+          "required_th": "2"
+        },
+        "6": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "840 / 100",
+          "time": "Instant",
+          "required_th": "2"
+        },
+        "7": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "1120 / -",
+          "time": "Instant",
+          "required_th": "2"
+        },
+        "8": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "1440 / -",
+          "time": "Instant",
+          "required_th": "2"
+        },
+        "9": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "1800 / 200",
+          "time": "Instant",
+          "required_th": "2"
+        },
+        "10": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "1900 / -",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "11": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "2000 / -",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "12": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "2100 / 400",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "13": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "2200 / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "14": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "2300 / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "15": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "2400 / 600",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "16": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "2500 / -",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "17": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "2600 / -",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "18": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "2700 / 600",
+          "time": "Instant",
+          "required_th": "7"
+        }
+      }
+    },
+    "Healer Puppet": {
+      "id": 90000020,
+      "levels": {
+        "1": {
+          "hitpoints": 132,
+          "dps": null,
+          "cost": "120 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "2": {
+          "hitpoints": 154,
+          "dps": null,
+          "cost": "240 / 20 / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "3": {
+          "hitpoints": 177,
+          "dps": null,
+          "cost": "400 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "4": {
+          "hitpoints": 199,
+          "dps": null,
+          "cost": "600 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "5": {
+          "hitpoints": 221,
+          "dps": null,
+          "cost": "840 / 100 / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "6": {
+          "hitpoints": 243,
+          "dps": null,
+          "cost": "1120 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "7": {
+          "hitpoints": 265,
+          "dps": null,
+          "cost": "1440 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "8": {
+          "hitpoints": 287,
+          "dps": null,
+          "cost": "1800 / 200 / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "9": {
+          "hitpoints": 331,
+          "dps": null,
+          "cost": "1900 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "10": {
+          "hitpoints": 402,
+          "dps": null,
+          "cost": "2000 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "11": {
+          "hitpoints": 473,
+          "dps": null,
+          "cost": "2100 / 400 / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "12": {
+          "hitpoints": 543,
+          "dps": null,
+          "cost": "2200 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "13": {
+          "hitpoints": 614,
+          "dps": null,
+          "cost": "2300 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "14": {
+          "hitpoints": 685,
+          "dps": null,
+          "cost": "2400 / 600 / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "15": {
+          "hitpoints": 756,
+          "dps": null,
+          "cost": "2500 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "16": {
+          "hitpoints": 826,
+          "dps": null,
+          "cost": "2600 / - / -",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "17": {
+          "hitpoints": 897,
+          "dps": null,
+          "cost": "2700 / 600 / -",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "18": {
+          "hitpoints": 968,
+          "dps": null,
+          "cost": "N/A",
+          "time": "Instant",
+          "required_th": "7"
+        }
+      }
+    },
+    "Eternal Tome": {
+      "id": 90000004,
+      "levels": {
+        "1": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "120 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "2": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "240 / 20 / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "3": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "400 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "4": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "600 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "5": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "840 / 100 / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "6": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "1120 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "7": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "1440 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "8": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "1800 / 200 / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "9": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "1900 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "10": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "2000 / - / -",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "11": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "2100 / 400 / -",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "12": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "2200 / - / -",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "13": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "2300 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "14": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "2400 / 600 / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "15": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "2500 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "16": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "2600 / - / -",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "17": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "2700 / 600 / -",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "18": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "N/A",
+          "time": "Instant",
+          "required_th": "7"
+        }
+      }
+    },
+    "Life Gem": {
+      "id": 90000005,
+      "levels": {
+        "1": {
+          "hitpoints": 170,
+          "dps": "11",
+          "cost": "120 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "2": {
+          "hitpoints": 184,
+          "dps": "13",
+          "cost": "240 / 20 / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "3": {
+          "hitpoints": 195,
+          "dps": "16",
+          "cost": "400 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "4": {
+          "hitpoints": 205,
+          "dps": "19",
+          "cost": "600 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "5": {
+          "hitpoints": 217,
+          "dps": "21",
+          "cost": "840 / 100 / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "6": {
+          "hitpoints": 230,
+          "dps": "23",
+          "cost": "1120 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "7": {
+          "hitpoints": 255,
+          "dps": "25",
+          "cost": "1440 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "8": {
+          "hitpoints": 282,
+          "dps": "27",
+          "cost": "1800 / 200 / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "9": {
+          "hitpoints": 312,
+          "dps": "32",
+          "cost": "1900 / - / -",
+          "time": "Instant",
+          "required_th": "1"
+        },
+        "10": {
+          "hitpoints": 344,
+          "dps": "36",
+          "cost": "2000 / - / -",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "11": {
+          "hitpoints": 381,
+          "dps": "43",
+          "cost": "2100 / 400 / -",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "12": {
+          "hitpoints": 398,
+          "dps": "47",
+          "cost": "2200 / - / -",
+          "time": "Instant",
+          "required_th": "3"
+        },
+        "13": {
+          "hitpoints": 415,
+          "dps": "53",
+          "cost": "2300 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "14": {
+          "hitpoints": 432,
+          "dps": "57",
+          "cost": "2400 / 600 / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "15": {
+          "hitpoints": 449,
+          "dps": "61",
+          "cost": "2500 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "16": {
+          "hitpoints": 466,
+          "dps": "66",
+          "cost": "2600 / - / -",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "17": {
+          "hitpoints": 483,
+          "dps": "70",
+          "cost": "2700 / 600 / -",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "18": {
+          "hitpoints": 500,
+          "dps": "75",
+          "cost": "N/A",
+          "time": "Instant",
+          "required_th": "7"
+        }
+      }
+    },
+    "Rage Gem": {
+      "id": 90000024,
+      "levels": {
+        "1": {
+          "hitpoints": null,
+          "dps": "12",
+          "cost": "120 / - / -",
+          "time": "Instant",
+          "required_th": "4"
+        },
+        "2": {
+          "hitpoints": null,
+          "dps": "14",
+          "cost": "240 / 20 / -",
+          "time": "Instant",
+          "required_th": "4"
+        },
+        "3": {
+          "hitpoints": null,
+          "dps": "16",
+          "cost": "400 / - / -",
+          "time": "Instant",
+          "required_th": "4"
+        },
+        "4": {
+          "hitpoints": null,
+          "dps": "18",
+          "cost": "600 / - / -",
+          "time": "Instant",
+          "required_th": "4"
+        },
+        "5": {
+          "hitpoints": null,
+          "dps": "20",
+          "cost": "840 / 100 / -",
+          "time": "Instant",
+          "required_th": "4"
+        },
+        "6": {
+          "hitpoints": null,
+          "dps": "22",
+          "cost": "1120 / - / -",
+          "time": "Instant",
+          "required_th": "4"
+        },
+        "7": {
+          "hitpoints": null,
+          "dps": "24",
+          "cost": "1440 / - / -",
+          "time": "Instant",
+          "required_th": "4"
+        },
+        "8": {
+          "hitpoints": null,
+          "dps": "26",
+          "cost": "1800 / 200 / -",
+          "time": "Instant",
+          "required_th": "4"
+        },
+        "9": {
+          "hitpoints": null,
+          "dps": "30",
+          "cost": "1900 / - / -",
+          "time": "Instant",
+          "required_th": "4"
+        },
+        "10": {
+          "hitpoints": null,
+          "dps": "36",
+          "cost": "2000 / - / -",
+          "time": "Instant",
+          "required_th": "4"
+        },
+        "11": {
+          "hitpoints": null,
+          "dps": "43",
+          "cost": "2100 / 400 / -",
+          "time": "Instant",
+          "required_th": "4"
+        },
+        "12": {
+          "hitpoints": null,
+          "dps": "49",
+          "cost": "2200 / - / -",
+          "time": "Instant",
+          "required_th": "4"
+        },
+        "13": {
+          "hitpoints": null,
+          "dps": "56",
+          "cost": "2300 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "14": {
+          "hitpoints": null,
+          "dps": "62",
+          "cost": "2400 / 600 / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "15": {
+          "hitpoints": null,
+          "dps": "69",
+          "cost": "2500 / - / -",
+          "time": "Instant",
+          "required_th": "5"
+        },
+        "16": {
+          "hitpoints": null,
+          "dps": "75",
+          "cost": "2600 / - / -",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "17": {
+          "hitpoints": null,
+          "dps": "82",
+          "cost": "2700 / 600 / -",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "18": {
+          "hitpoints": null,
+          "dps": "88",
+          "cost": "N/A",
+          "time": "Instant",
+          "required_th": "7"
+        }
+      }
+    },
+    "Healing Tome": {
+      "id": 90000034,
+      "levels": {
+        "1": {
+          "hitpoints": 92,
+          "dps": null,
+          "cost": "120 / - / -",
+          "time": "Instant",
+          "required_th": "6"
+        },
+        "2": {
+          "hitpoints": 107,
+          "dps": null,
+          "cost": "240 / 20 / -",
+          "time": "Instant",
+          "required_th": "6"
+        },
+        "3": {
+          "hitpoints": 122,
+          "dps": null,
+          "cost": "400 / - / -",
+          "time": "Instant",
+          "required_th": "6"
+        },
+        "4": {
+          "hitpoints": 137,
+          "dps": null,
+          "cost": "600 / - / -",
+          "time": "Instant",
+          "required_th": "6"
+        },
+        "5": {
+          "hitpoints": 153,
+          "dps": null,
+          "cost": "840 / 100 / -",
+          "time": "Instant",
+          "required_th": "6"
+        },
+        "6": {
+          "hitpoints": 168,
+          "dps": null,
+          "cost": "1120 / - / -",
+          "time": "Instant",
+          "required_th": "6"
+        },
+        "7": {
+          "hitpoints": 183,
+          "dps": null,
+          "cost": "1440 / - / -",
+          "time": "Instant",
+          "required_th": "6"
+        },
+        "8": {
+          "hitpoints": 198,
+          "dps": null,
+          "cost": "1800 / 200 / -",
+          "time": "Instant",
+          "required_th": "6"
+        },
+        "9": {
+          "hitpoints": 229,
+          "dps": null,
+          "cost": "1900 / - / -",
+          "time": "Instant",
+          "required_th": "6"
+        },
+        "10": {
+          "hitpoints": 280,
+          "dps": null,
+          "cost": "2000 / - / -",
+          "time": "Instant",
+          "required_th": "6"
+        },
+        "11": {
+          "hitpoints": 330,
+          "dps": null,
+          "cost": "2100 / 400 / -",
+          "time": "Instant",
+          "required_th": "6"
+        },
+        "12": {
+          "hitpoints": 381,
+          "dps": null,
+          "cost": "2200 / - / -",
+          "time": "Instant",
+          "required_th": "6"
+        },
+        "13": {
+          "hitpoints": 432,
+          "dps": null,
+          "cost": "2300 / - / -",
+          "time": "Instant",
+          "required_th": "6"
+        },
+        "14": {
+          "hitpoints": 482,
+          "dps": null,
+          "cost": "2400 / 600 / -",
+          "time": "Instant",
+          "required_th": "6"
+        },
+        "15": {
+          "hitpoints": 533,
+          "dps": null,
+          "cost": "2500 / - / -",
+          "time": "Instant",
+          "required_th": "6"
+        },
+        "16": {
+          "hitpoints": 584,
+          "dps": null,
+          "cost": "2600 / - / -",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "17": {
+          "hitpoints": 634,
+          "dps": null,
+          "cost": "2700 / 600 / -",
+          "time": "Instant",
+          "required_th": "7"
+        },
+        "18": {
+          "hitpoints": 685,
+          "dps": null,
+          "cost": "N/A",
+          "time": "Instant",
+          "required_th": "7"
+        }
+      }
+    }
+  },
+  "builder_base_troops": {
+    "Raged Barbarian": {
+      "id": 4000031,
+      "levels": {
+        "1": {
+          "hitpoints": 1179,
+          "dps": "136",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Sneaky Archer": {
+      "id": 4000032,
+      "levels": {
+        "1": {
+          "hitpoints": 462,
+          "dps": "125",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Boxer Giant": {
+      "id": 4000034,
+      "levels": {
+        "1": {
+          "hitpoints": 5423,
+          "dps": "129",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Beta Minion": {
+      "id": 4000033,
+      "levels": {
+        "1": {
+          "hitpoints": 429,
+          "dps": "126",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Bomber": {
+      "id": 4000035,
+      "levels": {
+        "1": {
+          "hitpoints": 1179,
+          "dps": "150",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Cannon Cart": {
+      "id": 4000037,
+      "levels": {
+        "1": {
+          "hitpoints": 1179,
+          "dps": "240",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Night Witch": {
+      "id": 4000042,
+      "levels": {
+        "1": {
+          "hitpoints": 1220,
+          "dps": "278",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Drop Ship": {
+      "id": 4000038,
+      "levels": {
+        "1": {
+          "hitpoints": 4978,
+          "dps": "10",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Super PEKKA": {
+      "levels": {}
+    },
+    "Hog Glider": {
+      "id": 4000070,
+      "levels": {
+        "1": {
+          "hitpoints": 700,
+          "dps": "1300",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Electrofire Wizard": {
+      "id": 4000106,
+      "levels": {
+        "1": {
+          "hitpoints": 1210,
+          "dps": "253",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Power P.E.K.K.A": {
+      "id": 4000036,
+      "levels": {
+        "1": {
+          "hitpoints": 5191,
+          "dps": "560",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Baby Dragon": {
+      "id": 4000041,
+      "levels": {
+        "1": {
+          "hitpoints": 2358,
+          "dps": "120",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Bat": {
+      "id": 4000043,
+      "levels": {
+        "1": {
+          "hitpoints": 10,
+          "dps": "20",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Enraged Bat": {
+      "id": 4000105,
+      "levels": {
+        "1": {
+          "hitpoints": 10,
+          "dps": "20",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Drop Ship Skeleton": {
+      "id": 4000040,
+      "levels": {
+        "1": {
+          "hitpoints": 10,
+          "dps": "20",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Hog Rider": {
+      "id": 4000071,
+      "levels": {
+        "1": {
+          "hitpoints": 1533,
+          "dps": "139",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "Zappy": {
+      "id": 4000107,
+      "levels": {
+        "1": {
+          "hitpoints": 518,
+          "dps": "80",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    },
+    "MovingCannonSecondary": {
+      "id": 4000044,
+      "levels": {
+        "1": {
+          "hitpoints": 300,
+          "dps": "297",
+          "cost": "N/A",
+          "time": "N/A",
+          "required_th": "1"
+        }
+      }
+    }
+  },
+  "builder_base_traps": {
+    "Mine": {
+      "id": 12000013,
+      "levels": {
+        "1": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "5000",
+          "time": "10m",
+          "required_th": "3"
+        },
+        "2": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "10000",
+          "time": "30m",
+          "required_th": "3"
+        },
+        "3": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "15000",
+          "time": "1h",
+          "required_th": "3"
+        },
+        "4": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "25000",
+          "time": "2h",
+          "required_th": "4"
+        },
+        "5": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "50000",
+          "time": "6h",
+          "required_th": "5"
+        },
+        "6": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "80000",
+          "time": "12h",
+          "required_th": "6"
+        },
+        "7": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "120000",
+          "time": "1d",
+          "required_th": "7"
+        },
+        "8": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "250000",
+          "time": "1d 12h",
+          "required_th": "8"
+        },
+        "9": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "500000",
+          "time": "2d",
+          "required_th": "9"
+        },
+        "10": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "1500000",
+          "time": "2d 12h",
+          "required_th": "10"
+        }
+      }
+    },
+    "Mega Mine": {
+      "id": 12000014,
+      "levels": {
+        "1": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "30000",
+          "time": "30m",
+          "required_th": "4"
+        },
+        "2": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "40000",
+          "time": "1h",
+          "required_th": "4"
+        },
+        "3": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "50000",
+          "time": "3h",
+          "required_th": "4"
+        },
+        "4": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "80000",
+          "time": "6h",
+          "required_th": "4"
+        },
+        "5": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "120000",
+          "time": "12h",
+          "required_th": "5"
+        },
+        "6": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "300000",
+          "time": "1d",
+          "required_th": "6"
+        },
+        "7": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "600000",
+          "time": "1d 12h",
+          "required_th": "7"
+        },
+        "8": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "1000000",
+          "time": "2d",
+          "required_th": "8"
+        },
+        "9": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "1400000",
+          "time": "3d",
+          "required_th": "9"
+        },
+        "10": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "2500000",
+          "time": "4d",
+          "required_th": "10"
+        }
+      }
+    },
+    "Push Trap": {
+      "id": 12000011,
+      "levels": {
+        "1": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "1000",
+          "time": "2m",
+          "required_th": "2"
+        },
+        "2": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "3000",
+          "time": "5m",
+          "required_th": "3"
+        },
+        "3": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "10000",
+          "time": "20m",
+          "required_th": "3"
+        },
+        "4": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "20000",
+          "time": "2h",
+          "required_th": "4"
+        },
+        "5": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "40000",
+          "time": "4h",
+          "required_th": "5"
+        },
+        "6": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "60000",
+          "time": "12h",
+          "required_th": "6"
+        },
+        "7": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "100000",
+          "time": "16h",
+          "required_th": "7"
+        },
+        "8": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "200000",
+          "time": "1d",
+          "required_th": "8"
+        },
+        "9": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "300000",
+          "time": "1d 12h",
+          "required_th": "9"
+        },
+        "10": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "500000",
+          "time": "2d",
+          "required_th": "10"
+        }
+      }
+    },
+    "Spring Trap": {
+      "id": 12000010,
+      "levels": {
+        "1": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "10000",
+          "time": "30m",
+          "required_th": "3"
+        },
+        "2": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "30000",
+          "time": "1h",
+          "required_th": "4"
+        },
+        "3": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "100000",
+          "time": "1d",
+          "required_th": "6"
+        },
+        "4": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "300000",
+          "time": "2d",
+          "required_th": "8"
+        },
+        "5": {
+          "hitpoints": null,
+          "dps": null,
+          "cost": "500000",
+          "time": "3d",
+          "required_th": "10"
+        }
+      }
+    }
+  }
+}

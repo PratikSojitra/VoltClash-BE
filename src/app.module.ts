@@ -1,29 +1,33 @@
 import { Module } from '@nestjs/common';
-import { ConfigModule, ConfigService } from '@nestjs/config';
-import { MongooseModule } from '@nestjs/mongoose';
+import { ConfigModule } from '@nestjs/config';
+import { ScheduleModule } from '@nestjs/schedule';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { PlayerProfile, PlayerProfileSchema } from './schemas/player-profile.schema';
-import { UpgradeTimer, UpgradeTimerSchema } from './schemas/upgrade-timer.schema';
-import { GameData, GameDataSchema } from './schemas/game-data.schema';
+import { PrismaModule } from './prisma/prisma.module';
+import { AuthModule } from './auth/auth.module';
+import { PlayerModule } from './player/player.module';
+import { ClashApiModule } from './clash-api/clash-api.module';
+import { GameDataModule } from './game-data/game-data.module';
+import { UpgradeModule } from './upgrade/upgrade.module';
+import { PlannerModule } from './planner/planner.module';
+import { ImportModule } from './import/import.module';
+import { SchedulerModule } from './scheduler/scheduler.module';
 
 @Module({
   imports: [
     ConfigModule.forRoot({
       isGlobal: true,
     }),
-    MongooseModule.forRootAsync({
-      imports: [ConfigModule],
-      useFactory: async (configService: ConfigService) => ({
-        uri: configService.get<string>('MONGODB_URI'),
-      }),
-      inject: [ConfigService],
-    }),
-    MongooseModule.forFeature([
-      { name: PlayerProfile.name, schema: PlayerProfileSchema },
-      { name: UpgradeTimer.name, schema: UpgradeTimerSchema },
-      { name: GameData.name, schema: GameDataSchema },
-    ]),
+    ScheduleModule.forRoot(),
+    PrismaModule,
+    AuthModule,
+    PlayerModule,
+    ClashApiModule,
+    GameDataModule,
+    UpgradeModule,
+    PlannerModule,
+    ImportModule,
+    SchedulerModule,
   ],
   controllers: [AppController],
   providers: [AppService],
