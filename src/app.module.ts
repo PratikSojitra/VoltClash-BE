@@ -12,6 +12,7 @@ import { UpgradeModule } from './upgrade/upgrade.module';
 import { PlannerModule } from './planner/planner.module';
 import { ImportModule } from './import/import.module';
 import { SchedulerModule } from './scheduler/scheduler.module';
+import { AiModule } from './ai/ai.module';
 
 @Module({
   imports: [
@@ -28,6 +29,7 @@ import { SchedulerModule } from './scheduler/scheduler.module';
     PlannerModule,
     ImportModule,
     SchedulerModule,
+    AiModule,
   ],
   controllers: [AppController],
   providers: [AppService],
