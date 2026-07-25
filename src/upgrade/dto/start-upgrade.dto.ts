@@ -1,4 +1,4 @@
-import { IsInt, IsString, Min } from 'class-validator';
+import { IsInt, IsOptional, IsString, Min } from 'class-validator';
 
 export class StartUpgradeDto {
   @IsString()
@@ -10,4 +10,9 @@ export class StartUpgradeDto {
   @IsInt()
   @Min(1)
   currentLevel: number;
+
+  @IsString()
+  @IsOptional()
+  village?: string;
 }
+

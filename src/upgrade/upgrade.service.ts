@@ -8,6 +8,28 @@ import { PrismaService } from '../prisma/prisma.service';
 import { GameDataService } from '../game-data/game-data.service';
 import { StartUpgradeDto } from './dto/start-upgrade.dto';
 
+const LAB_ITEMS = new Set([
+  // Home troops
+  'Barbarian', 'Archer', 'Giant', 'Goblin', 'Wall Breaker', 'Balloon', 'Wizard', 'Healer', 'Dragon', 'PEKKA', 'Baby Dragon', 'Miner', 'Electro Dragon', 'Yeti', 'Dragon Rider', 'Electro Titan', 'Root Rider', 'Druid', 'Minion', 'Hog Rider', 'Valkyrie', 'Golem', 'Witch', 'Lava Hound', 'Bowler', 'Headhunter',
+  // Builder troops
+  'Raged Barbarian', 'Sneaky Archer', 'Boxer Giant', 'Beta Minion', 'Bomber', 'Cannon Cart', 'Night Witch', 'Drop Ship', 'Power P.E.K.K.A', 'Hog Glider', 'Electrofire Wizard',
+  // Spells
+  'Lightning Spell', 'Healing Spell', 'Rage Spell', 'Jump Spell', 'Freeze Spell', 'Clone Spell', 'Invisibility Spell', 'Overgrowth Spell', 'Poison Spell', 'Earthquake Spell', 'Haste Spell', 'Skeleton Spell', 'Bat Spell', 'Recall Spell'
+]);
+
+const HERO_ITEMS = new Set([
+  'Barbarian King', 'Archer Queen', 'Grand Warden', 'Royal Champion', 'Battle Machine', 'Battle Copter'
+]);
+
+const BUILDER_VILLAGE_ITEMS = new Set([
+  'Double Cannon', 'Firecrackers', 'Crusher', 'Roaster', 'Giant Cannon', 'Mega Tesla', 'Lava Launcher', 'Guard Post',
+  'Builder Barracks', 'Star Laboratory', 'Clock Tower',
+  'Gem Mine', "O.T.T.O's Outpost",
+  'Raged Barbarian', 'Sneaky Archer', 'Boxer Giant', 'Beta Minion', 'Bomber', 'Cannon Cart', 'Night Witch', 'Drop Ship', 'Power P.E.K.K.A', 'Hog Glider', 'Electrofire Wizard',
+  'Battle Machine', 'Battle Copter',
+  'Push Trap', 'Mine', 'Mega Mine'
+]);
+
 @Injectable()
 export class UpgradeService {
   constructor(
@@ -15,8 +37,43 @@ export class UpgradeService {
     private readonly gameDataService: GameDataService,
   ) {}
 
+  private getItemCategory(name: string): 'Troops' | 'Spells' | 'Heroes' | 'Defenses' | 'Resources' | 'Army' | 'Traps' {
+    if (LAB_ITEMS.has(name)) {
+      return name.toLowerCase().includes('spell') ? 'Spells' : 'Troops';
+    }
+    if (HERO_ITEMS.has(name)) {
+      return 'Heroes';
+    }
+    const traps = ['Bomb', 'Spring Trap', 'Giant Bomb', 'Air Bomb', 'Seeking Air Mine', 'Skeleton Trap', 'Tornado Trap', 'Mine', 'Mega Mine', 'Push Trap'];
+    if (traps.includes(name)) {
+      return 'Traps';
+    }
+    const army = ['Army Camp', 'Barracks', 'Dark Barracks', 'Laboratory', 'Spell Factory', 'Dark Spell Factory', 'Clan Castle', 'Pet House', 'Workshop', 'Blacksmith', 'Builder Barracks', 'Star Laboratory', 'Clock Tower'];
+    if (army.includes(name)) {
+      return 'Army';
+    }
+    const resources = ['Gold Mine', 'Elixir Collector', 'Dark Elixir Drill', 'Gold Storage', 'Elixir Storage', 'Dark Elixir Storage', 'Gem Mine', "O.T.T.O's Outpost"];
+    if (resources.includes(name)) {
+      return 'Resources';
+    }
+    return 'Defenses';
+  }
+
+  private getItemVillage(name: string, dtoVillage?: string): 'home' | 'builder' {
+    if (dtoVillage === 'builder' || dtoVillage === 'home') {
+      return dtoVillage;
+    }
+    if (BUILDER_VILLAGE_ITEMS.has(name)) {
+      return 'builder';
+    }
+    return 'home';
+  }
+
   async startUpgrade(userId: string, dto: StartUpgradeDto) {
     const formattedTag = dto.playerTag.toUpperCase().trim();
+    const isLabItem = LAB_ITEMS.has(dto.itemName);
+    const category = this.getItemCategory(dto.itemName);
+    const village = this.getItemVillage(dto.itemName, dto.village);
 
     // 1. Verify ownership
     const account = await this.prisma.playerAccount.findFirst({
@@ -26,26 +83,85 @@ export class UpgradeService {
       throw new NotFoundException(`Player tag ${formattedTag} not associated with this user`);
     }
 
-    // 2. Fetch upgrade time & cost
+    // 2. Fetch upgrade details
     const targetLevel = dto.currentLevel + 1;
-    const upgradeDetails = this.gameDataService.getBuildingUpgrade(dto.itemName, targetLevel);
+    const upgradeDetails = isLabItem
+      ? this.gameDataService.getTroopUpgrade(dto.itemName, targetLevel)
+      : this.gameDataService.getBuildingUpgrade(dto.itemName, targetLevel);
 
-    // 3. Find an available builder slot
+    const startTime = new Date();
+    const endTime = new Date(startTime.getTime() + upgradeDetails.durationSeconds * 1000);
+
+    // 3. For Lab items, ensure Lab is not busy
+    if (isLabItem) {
+      const activeLabUpgrade = await this.prisma.upgradeTimer.findFirst({
+        where: {
+          player_tag: formattedTag,
+          status: 'ACTIVE',
+          item_name: { in: Array.from(LAB_ITEMS) },
+        },
+      });
+
+      if (activeLabUpgrade) {
+        throw new ConflictException(
+          'Your Laboratory is currently busy researching another item!',
+        );
+      }
+
+      // Create Lab Upgrade Timer (builder_slot = 0 represents Laboratory slot)
+      return this.prisma.upgradeTimer.create({
+        data: {
+          player_tag: formattedTag,
+          item_name: dto.itemName,
+          current_level: dto.currentLevel,
+          target_level: targetLevel,
+          start_time: startTime,
+          end_time: endTime,
+          builder_slot: 0,
+          status: 'ACTIVE',
+        },
+      });
+    }
+
+    // 4. For builder items, find an available builder slot
+    const maxBuildersCount = village === 'builder' ? 2 : 6;
+    
+    // Ensure all builder slots are initialized in DB for this player tag
+    const existingSlots = await this.prisma.builderSlot.findMany({
+      where: { player_tag: formattedTag },
+    });
+
+    if (existingSlots.length < maxBuildersCount) {
+      const existingSlotNumbers = existingSlots.map(s => s.slot_number);
+      const slotsToCreate = [] as any[];
+      for (let i = 1; i <= maxBuildersCount; i++) {
+        if (!existingSlotNumbers.includes(i)) {
+          slotsToCreate.push({
+            player_tag: formattedTag,
+            slot_number: i,
+            is_busy: false,
+          });
+        }
+      }
+      if (slotsToCreate.length > 0) {
+        await this.prisma.builderSlot.createMany({
+          data: slotsToCreate,
+        });
+      }
+    }
+
     const availableSlot = await this.prisma.builderSlot.findFirst({
-      where: { player_tag: formattedTag, is_busy: false },
+      where: { player_tag: formattedTag, is_busy: false, slot_number: { lte: maxBuildersCount } },
       orderBy: { slot_number: 'asc' },
     });
 
     if (!availableSlot) {
       throw new ConflictException(
-        'All builders are currently busy! Complete or cancel an upgrade first.',
+        `All ${maxBuildersCount} builders are currently busy! Complete or cancel an upgrade first.`,
       );
     }
 
-    const startTime = new Date();
-    const endTime = new Date(startTime.getTime() + upgradeDetails.durationSeconds * 1000);
-
-    // 4. Update slot and create timer in transaction
+    // Update slot and create timer in transaction
     return this.prisma.$transaction(async (tx) => {
       await tx.builderSlot.update({
         where: { id: availableSlot.id },
@@ -84,20 +200,25 @@ export class UpgradeService {
       throw new UnauthorizedException('Access denied');
     }
 
+    const category = this.getItemCategory(timer.item_name);
+    const village = this.getItemVillage(timer.item_name);
+
     return this.prisma.$transaction(async (tx) => {
-      // Free builder slot
-      await tx.builderSlot.update({
-        where: {
-          player_tag_slot_number: {
-            player_tag: timer.player_tag,
-            slot_number: timer.builder_slot,
+      // Free builder slot if it's not a Laboratory upgrade (slot 0)
+      if (timer.builder_slot > 0) {
+        await tx.builderSlot.update({
+          where: {
+            player_tag_slot_number: {
+              player_tag: timer.player_tag,
+              slot_number: timer.builder_slot,
+            },
           },
-        },
-        data: {
-          is_busy: false,
-          available_at: null,
-        },
-      });
+          data: {
+            is_busy: false,
+            available_at: null,
+          },
+        });
+      }
 
       // Mark timer as completed
       await tx.upgradeTimer.update({
@@ -105,24 +226,62 @@ export class UpgradeService {
         data: { status: 'COMPLETED' },
       });
 
-      // Increment building level in database
-      return tx.building.upsert({
-        where: {
-          player_tag_name: {
+      // Upsert into appropriate table based on category
+      if (category === 'Troops' || category === 'Spells') {
+        return tx.troop.upsert({
+          where: {
+            player_tag_name: {
+              player_tag: timer.player_tag,
+              name: timer.item_name,
+            },
+          },
+          create: {
             player_tag: timer.player_tag,
             name: timer.item_name,
+            level: timer.target_level,
+            village,
           },
-        },
-        create: {
-          player_tag: timer.player_tag,
-          name: timer.item_name,
-          level: timer.target_level,
-          village: 'home',
-        },
-        update: {
-          level: timer.target_level,
-        },
-      });
+          update: {
+            level: timer.target_level,
+          },
+        });
+      } else if (category === 'Heroes') {
+        return tx.hero.upsert({
+          where: {
+            player_tag_name: {
+              player_tag: timer.player_tag,
+              name: timer.item_name,
+            },
+          },
+          create: {
+            player_tag: timer.player_tag,
+            name: timer.item_name,
+            level: timer.target_level,
+            village,
+          },
+          update: {
+            level: timer.target_level,
+          },
+        });
+      } else {
+        return tx.building.upsert({
+          where: {
+            player_tag_name: {
+              player_tag: timer.player_tag,
+              name: timer.item_name,
+            },
+          },
+          create: {
+            player_tag: timer.player_tag,
+            name: timer.item_name,
+            level: timer.target_level,
+            village,
+          },
+          update: {
+            level: timer.target_level,
+          },
+        });
+      }
     });
   }
 
@@ -141,19 +300,21 @@ export class UpgradeService {
     }
 
     return this.prisma.$transaction(async (tx) => {
-      // Free builder slot
-      await tx.builderSlot.update({
-        where: {
-          player_tag_slot_number: {
-            player_tag: timer.player_tag,
-            slot_number: timer.builder_slot,
+      // Free builder slot if it's not a Laboratory upgrade (slot 0)
+      if (timer.builder_slot > 0) {
+        await tx.builderSlot.update({
+          where: {
+            player_tag_slot_number: {
+              player_tag: timer.player_tag,
+              slot_number: timer.builder_slot,
+            },
           },
-        },
-        data: {
-          is_busy: false,
-          available_at: null,
-        },
-      });
+          data: {
+            is_busy: false,
+            available_at: null,
+          },
+        });
+      }
 
       // Mark timer as cancelled
       return tx.upgradeTimer.update({
@@ -194,18 +355,21 @@ export class UpgradeService {
           data: { end_time: newEndTime },
         });
 
-        await tx.builderSlot.update({
-          where: {
-            player_tag_slot_number: {
-              player_tag: timer.player_tag,
-              slot_number: timer.builder_slot,
+        if (timer.builder_slot > 0) {
+          await tx.builderSlot.update({
+            where: {
+              player_tag_slot_number: {
+                player_tag: timer.player_tag,
+                slot_number: timer.builder_slot,
+              },
             },
-          },
-          data: { available_at: newEndTime },
-        });
+            data: { available_at: newEndTime },
+          });
+        }
       }
     });
 
     return { message: 'Successfully applied Builder Potion boost (reduced durations by 9 hours)' };
   }
 }
+
