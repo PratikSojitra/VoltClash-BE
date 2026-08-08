@@ -1,11 +1,12 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from '../src/app.module';
 import { ExpressAdapter } from '@nestjs/platform-express';
-import express from 'express';
+import { Request, Response, Express } from 'express';
+const express = require('express');
 import { ValidationPipe } from '@nestjs/common';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 
-let cachedServer: express.Express | undefined;
+let cachedServer: Express | undefined;
 
 async function bootstrap() {
   if (!cachedServer) {
@@ -42,7 +43,7 @@ async function bootstrap() {
   return cachedServer;
 }
 
-export default async (req: express.Request, res: express.Response) => {
+export default async (req: Request, res: Response) => {
   const server = await bootstrap();
   return server(req, res);
 };
