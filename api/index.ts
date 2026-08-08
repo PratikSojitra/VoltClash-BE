@@ -1,20 +1,14 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from '../src/app.module';
-import { ExpressAdapter } from '@nestjs/platform-express';
-import { Request, Response, Express } from 'express';
-const express = require('express');
 import { ValidationPipe } from '@nestjs/common';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 
-let cachedServer: Express | undefined;
+let cachedServer: any;
 
 async function bootstrap() {
   if (!cachedServer) {
-    const expressInstance = express();
-    const app = await NestFactory.create(
-      AppModule,
-      new ExpressAdapter(expressInstance),
-    );
+    // Create Nest app without manually injecting Express - it uses Express by default internally
+    const app = await NestFactory.create(AppModule);
     
     // Enable CORS for frontend integration
     app.enableCors();
@@ -38,12 +32,14 @@ async function bootstrap() {
     SwaggerModule.setup('api/docs', app, document);
 
     await app.init();
-    cachedServer = expressInstance;
+    
+    // Extract the raw Express instance that Vercel requires
+    cachedServer = app.getHttpAdapter().getInstance();
   }
   return cachedServer;
 }
 
-export default async (req: Request, res: Response) => {
+export default async (req: any, res: any) => {
   const server = await bootstrap();
   return server(req, res);
 };
